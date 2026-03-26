@@ -1,0 +1,405 @@
+{
+  "version": "1.0.0",
+  "ritualVendorLinks": [
+    {
+      "ritualId": "sikh-roka",
+      "ritualName": "Roka",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Venues", "Florist", "Beauty & Culture"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "sikh-shagan",
+      "ritualName": "Shagan",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Venues", "Beauty & Culture", "Florist"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "sikh-chunni-chadana",
+      "ritualName": "Chunni Chadana",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Venues", "Florist", "Beauty & Culture"],
+      "optionalVendorCategories": ["Entertainment", "Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "sikh-kurmai",
+      "ritualName": "Kurmai",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering", "Priest/Officiant"],
+      "suggestedVendorCategories": ["Venues", "Florist", "Beauty & Culture"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "sikh-maiyan",
+      "ritualName": "Maiyan",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Florist", "Beauty & Culture", "Venues"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "sikh-mehndi",
+      "ritualName": "Mehndi",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Mehndi Artist", "Decor & Design", "Photography & Video"],
+      "suggestedVendorCategories": ["Food & Catering", "Entertainment", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "sikh-sangeet",
+      "ritualName": "Sangeet",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Entertainment", "Venues", "Photography & Video", "Food & Catering", "Production & Infrastructure"],
+      "suggestedVendorCategories": ["Decor & Design", "Dhol/Music Group", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality", "Florist"]
+    },
+    {
+      "ritualId": "sikh-jaggo",
+      "ritualName": "Jaggo",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Dhol/Music Group", "Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Food & Catering", "Entertainment", "Production & Infrastructure"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "sikh-chooda",
+      "ritualName": "Chooda",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Beauty & Culture", "Florist", "Food & Catering"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "sikh-kalire",
+      "ritualName": "Kalire",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Beauty & Culture", "Florist"],
+      "optionalVendorCategories": ["Entertainment", "Food & Catering"]
+    },
+    {
+      "ritualId": "sikh-sehra-bandi",
+      "ritualName": "Sehra Bandi",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Florist"],
+      "suggestedVendorCategories": ["Dhol/Music Group", "Beauty & Culture", "Food & Catering"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "sikh-ghurchari",
+      "ritualName": "Ghurchari",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Dhol/Music Group", "Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Florist", "Production & Infrastructure", "Logistics & Hospitality"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "sikh-milni",
+      "ritualName": "Milni",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Photography & Video", "Dhol/Music Group", "Decor & Design"],
+      "suggestedVendorCategories": ["Florist", "Food & Catering"],
+      "optionalVendorCategories": ["Rentals", "Production & Infrastructure"]
+    },
+    {
+      "ritualId": "sikh-anand-karaj",
+      "ritualName": "Anand Karaj",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Priest/Officiant", "Venues", "Photography & Video", "Decor & Design", "Florist"],
+      "suggestedVendorCategories": ["Beauty & Culture", "Food & Catering", "Production & Infrastructure", "Wedding Planner"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality", "Dhol/Music Group"]
+    },
+    {
+      "ritualId": "sikh-doli",
+      "ritualName": "Doli",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Logistics & Hospitality"],
+      "suggestedVendorCategories": ["Florist", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "sikh-reception",
+      "ritualName": "Reception",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Venues", "Food & Catering", "Photography & Video", "Decor & Design", "Entertainment", "Production & Infrastructure"],
+      "suggestedVendorCategories": ["Florist", "Beauty & Culture", "Wedding Planner", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "sikh-grihapravesh",
+      "ritualName": "Grihapravesh",
+      "religion": "Sikh",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Florist", "Food & Catering", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals", "Priest/Officiant"]
+    },
+    {
+      "ritualId": "hindu-roka",
+      "ritualName": "Roka",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Venues", "Florist", "Beauty & Culture"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "hindu-sagai",
+      "ritualName": "Sagai",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering", "Venues"],
+      "suggestedVendorCategories": ["Florist", "Beauty & Culture", "Entertainment"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality", "Wedding Planner"]
+    },
+    {
+      "ritualId": "hindu-ganesh-puja",
+      "ritualName": "Ganesh Puja",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Priest/Officiant", "Decor & Design", "Photography & Video"],
+      "suggestedVendorCategories": ["Florist", "Food & Catering"],
+      "optionalVendorCategories": ["Rentals", "Venues"]
+    },
+    {
+      "ritualId": "hindu-haldi",
+      "ritualName": "Haldi",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Florist", "Beauty & Culture", "Venues"],
+      "optionalVendorCategories": ["Entertainment", "Rentals", "Dhol/Music Group"]
+    },
+    {
+      "ritualId": "hindu-mehndi",
+      "ritualName": "Mehndi",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Mehndi Artist", "Decor & Design", "Photography & Video"],
+      "suggestedVendorCategories": ["Food & Catering", "Entertainment", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "hindu-sangeet",
+      "ritualName": "Sangeet",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Entertainment", "Venues", "Photography & Video", "Food & Catering", "Production & Infrastructure"],
+      "suggestedVendorCategories": ["Decor & Design", "Dhol/Music Group", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality", "Florist"]
+    },
+    {
+      "ritualId": "hindu-mata-ki-chowki",
+      "ritualName": "Mata Ki Chowki",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Priest/Officiant", "Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Florist", "Entertainment", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Venues", "Rentals", "Production & Infrastructure"]
+    },
+    {
+      "ritualId": "hindu-sehra-bandi",
+      "ritualName": "Sehra Bandi",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Florist"],
+      "suggestedVendorCategories": ["Dhol/Music Group", "Beauty & Culture", "Food & Catering"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "hindu-baraat",
+      "ritualName": "Baraat",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Dhol/Music Group", "Photography & Video", "Decor & Design", "Logistics & Hospitality"],
+      "suggestedVendorCategories": ["Florist", "Production & Infrastructure", "Entertainment"],
+      "optionalVendorCategories": ["Rentals", "Food & Catering"]
+    },
+    {
+      "ritualId": "hindu-jaimala",
+      "ritualName": "Jaimala",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Florist"],
+      "suggestedVendorCategories": ["Dhol/Music Group", "Production & Infrastructure"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "hindu-kanyadaan",
+      "ritualName": "Kanyadaan",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Priest/Officiant", "Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Florist"],
+      "optionalVendorCategories": ["Rentals"]
+    },
+    {
+      "ritualId": "hindu-pheras",
+      "ritualName": "Pheras",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Priest/Officiant", "Venues", "Photography & Video", "Decor & Design", "Florist"],
+      "suggestedVendorCategories": ["Beauty & Culture", "Production & Infrastructure", "Wedding Planner"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "hindu-sindoor-mangalsutra",
+      "ritualName": "Sindoor & Mangalsutra",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Priest/Officiant", "Photography & Video"],
+      "suggestedVendorCategories": ["Decor & Design", "Florist"],
+      "optionalVendorCategories": ["Rentals"]
+    },
+    {
+      "ritualId": "hindu-vidaai",
+      "ritualName": "Vidaai",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Logistics & Hospitality"],
+      "suggestedVendorCategories": ["Florist", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "hindu-grihapravesh",
+      "ritualName": "Grihapravesh",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Priest/Officiant"],
+      "suggestedVendorCategories": ["Florist", "Food & Catering", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals"]
+    },
+    {
+      "ritualId": "hindu-reception",
+      "ritualName": "Reception",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Venues", "Food & Catering", "Photography & Video", "Decor & Design", "Entertainment", "Production & Infrastructure"],
+      "suggestedVendorCategories": ["Florist", "Beauty & Culture", "Wedding Planner", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "hindu-satyanarayan-puja",
+      "ritualName": "Satyanarayan Puja",
+      "religion": "Hindu",
+      "essentialVendorCategories": ["Priest/Officiant", "Decor & Design", "Photography & Video"],
+      "suggestedVendorCategories": ["Florist", "Food & Catering"],
+      "optionalVendorCategories": ["Venues", "Rentals"]
+    },
+    {
+      "ritualId": "jain-tikka",
+      "ritualName": "Tikka",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Venues", "Florist", "Beauty & Culture"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "jain-grah-shanti",
+      "ritualName": "Grah Shanti",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Priest/Officiant", "Decor & Design", "Photography & Video"],
+      "suggestedVendorCategories": ["Florist", "Food & Catering", "Venues"],
+      "optionalVendorCategories": ["Rentals"]
+    },
+    {
+      "ritualId": "jain-mandap-muhurat",
+      "ritualName": "Mandap Muhurat",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Priest/Officiant", "Decor & Design", "Photography & Video", "Florist"],
+      "suggestedVendorCategories": ["Venues", "Food & Catering"],
+      "optionalVendorCategories": ["Rentals", "Production & Infrastructure"]
+    },
+    {
+      "ritualId": "jain-mehndi",
+      "ritualName": "Mehndi",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Mehndi Artist", "Decor & Design", "Photography & Video"],
+      "suggestedVendorCategories": ["Food & Catering", "Entertainment", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "jain-sangeet",
+      "ritualName": "Sangeet",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Entertainment", "Venues", "Photography & Video", "Food & Catering", "Production & Infrastructure"],
+      "suggestedVendorCategories": ["Decor & Design", "Beauty & Culture", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality", "Florist"]
+    },
+    {
+      "ritualId": "jain-haldi",
+      "ritualName": "Haldi",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Decor & Design", "Photography & Video", "Food & Catering"],
+      "suggestedVendorCategories": ["Florist", "Beauty & Culture", "Venues"],
+      "optionalVendorCategories": ["Entertainment", "Rentals"]
+    },
+    {
+      "ritualId": "jain-baarat",
+      "ritualName": "Baarat",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Dhol/Music Group", "Photography & Video", "Decor & Design", "Logistics & Hospitality"],
+      "suggestedVendorCategories": ["Florist", "Production & Infrastructure", "Entertainment"],
+      "optionalVendorCategories": ["Rentals", "Food & Catering"]
+    },
+    {
+      "ritualId": "jain-toran-vidhi",
+      "ritualName": "Toran Vidhi",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Priest/Officiant", "Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Florist", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Rentals"]
+    },
+    {
+      "ritualId": "jain-varmala",
+      "ritualName": "Varmala",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Florist"],
+      "suggestedVendorCategories": ["Dhol/Music Group", "Production & Infrastructure"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "jain-pheras",
+      "ritualName": "Pheras",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Priest/Officiant", "Venues", "Photography & Video", "Decor & Design", "Florist"],
+      "suggestedVendorCategories": ["Beauty & Culture", "Production & Infrastructure", "Wedding Planner"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "jain-kanyadaan",
+      "ritualName": "Kanyadaan",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Priest/Officiant", "Photography & Video", "Decor & Design"],
+      "suggestedVendorCategories": ["Florist"],
+      "optionalVendorCategories": ["Rentals"]
+    },
+    {
+      "ritualId": "jain-vidaai",
+      "ritualName": "Vidaai",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Logistics & Hospitality"],
+      "suggestedVendorCategories": ["Florist", "Dhol/Music Group"],
+      "optionalVendorCategories": ["Rentals", "Entertainment"]
+    },
+    {
+      "ritualId": "jain-reception",
+      "ritualName": "Reception",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Venues", "Food & Catering", "Photography & Video", "Decor & Design", "Entertainment", "Production & Infrastructure"],
+      "suggestedVendorCategories": ["Florist", "Beauty & Culture", "Wedding Planner"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality"]
+    },
+    {
+      "ritualId": "jain-grihapravesh",
+      "ritualName": "Grihapravesh",
+      "religion": "Jain",
+      "essentialVendorCategories": ["Photography & Video", "Decor & Design", "Priest/Officiant"],
+      "suggestedVendorCategories": ["Florist", "Food & Catering", "Beauty & Culture"],
+      "optionalVendorCategories": ["Rentals"]
+    },
+    {
+      "ritualId": "common-welcome-dinner",
+      "ritualName": "Welcome Dinner",
+      "religion": "Common",
+      "essentialVendorCategories": ["Venues", "Food & Catering", "Decor & Design", "Photography & Video"],
+      "suggestedVendorCategories": ["Entertainment", "Florist", "Production & Infrastructure", "Wedding Planner"],
+      "optionalVendorCategories": ["Rentals", "Logistics & Hospitality", "Dhol/Music Group"]
+    },
+    {
+      "ritualId": "common-farewell-brunch",
+      "ritualName": "Farewell Brunch",
+      "religion": "Common",
+      "essentialVendorCategories": ["Venues", "Food & Catering", "Photography & Video"],
+      "suggestedVendorCategories": ["Decor & Design", "Florist"],
+      "optionalVendorCategories": ["Entertainment", "Rentals", "Logistics & Hospitality"]
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "version": "1.0.0",
+  "eventPackages": [
+    {
+      "eventId": "welcome-dinner",
+      "eventType": "Welcome Dinner",
+      "standardRecommendedMenu": {
+        "starters": ["Samosa", "Paneer Tikka", "Dahi Puri"],
+        "mains": ["Dal Tadka", "Palak Paneer", "Mixed Veg Curry", "Jeera Rice", "Naan", "Butter Roti"],
+        "desserts": ["Gulab Jamun", "Gajar Ka Halwa"],
+        "drinks": ["Masala Chai", "Lassi", "Rose Sharbat"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Rose Sharbat", "Virgin Mojito", "Thandai"],
+        "starters": ["Paneer Tikka", "Hara Bhara Kebab", "Chicken Tikka", "Dahi Puri", "Fish Tikka"],
+        "liveStations": ["Chaat Counter", "Taco-Tikka Fusion Station"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Butter Chicken", "Veg Biryani", "Garlic Naan", "Butter Roti"],
+        "desserts": ["Rasmalai", "Gulab Jamun", "Kulfi Station", "Kaju Katli"],
+        "drinks": ["Thandai", "Mango Lassi", "Masala Chai", "Virgin Mojito"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Samosa", "Pakora", "Dahi Puri"],
+        "drinks": ["Masala Chai", "Lassi", "Rose Sharbat"],
+        "dessert": ["Gulab Jamun"]
+      }
+    },
+    {
+      "eventId": "mehndi",
+      "eventType": "Mehndi",
+      "standardRecommendedMenu": {
+        "starters": ["Samosa", "Pakora", "Aloo Tikki"],
+        "chaatCounter": ["Pani Puri", "Dahi Puri", "Bhel Puri"],
+        "mains": ["Chole Bhature", "Pav Bhaji", "Jeera Rice", "Naan"],
+        "desserts": ["Jalebi", "Gulab Jamun", "Motichoor Ladoo"],
+        "drinks": ["Masala Chai", "Lassi", "Rose Sharbat"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Rose Sharbat", "Mango Lassi"],
+        "starters": ["Paneer Tikka", "Samosa", "Pakora", "Aloo Tikki"],
+        "liveStations": ["Pani Puri Counter", "Chaat Counter", "Pav Bhaji Station"],
+        "mains": ["Chole Bhature", "Paneer Butter Masala", "Veg Biryani", "Garlic Naan", "Butter Roti"],
+        "desserts": ["Jalebi", "Gulab Jamun", "Rasmalai", "Motichoor Ladoo"],
+        "drinks": ["Masala Chai", "Mango Lassi", "Thandai", "Rose Sharbat"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Samosa", "Pakora", "Pani Puri"],
+        "drinks": ["Masala Chai", "Lassi"],
+        "dessert": ["Jalebi", "Motichoor Ladoo"]
+      }
+    },
+    {
+      "eventId": "haldi",
+      "eventType": "Haldi",
+      "standardRecommendedMenu": {
+        "starters": ["Samosa", "Pakora", "Aloo Tikki"],
+        "mains": ["Dal Tadka", "Mixed Veg Curry", "Chole Bhature", "Jeera Rice", "Butter Roti"],
+        "desserts": ["Jalebi", "Gulab Jamun"],
+        "drinks": ["Masala Chai", "Lassi", "Fresh Juice Counter"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Rose Sharbat", "Fresh Juice Counter"],
+        "starters": ["Samosa", "Pakora", "Aloo Tikki", "Dahi Puri"],
+        "liveStations": ["Chaat Counter", "Chole Bhature Station"],
+        "mains": ["Dal Makhani", "Palak Paneer", "Rajma Chawal", "Mixed Veg Curry", "Jeera Rice", "Naan", "Butter Roti"],
+        "desserts": ["Jalebi", "Gulab Jamun", "Gajar Ka Halwa", "Motichoor Ladoo"],
+        "drinks": ["Masala Chai", "Lassi", "Rose Sharbat", "Fresh Juice Counter"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Samosa", "Pakora"],
+        "drinks": ["Masala Chai", "Lassi", "Rose Sharbat"],
+        "dessert": ["Jalebi"]
+      }
+    },
+    {
+      "eventId": "sangeet",
+      "eventType": "Sangeet",
+      "standardRecommendedMenu": {
+        "starters": ["Paneer Tikka", "Samosa", "Hara Bhara Kebab"],
+        "chaatCounter": ["Pani Puri", "Dahi Puri", "Bhel Puri"],
+        "mains": ["Dal Makhani", "Paneer Butter Masala", "Veg Biryani", "Naan", "Butter Roti"],
+        "desserts": ["Gulab Jamun", "Rasmalai"],
+        "drinks": ["Masala Chai", "Virgin Mojito", "Mango Lassi"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Virgin Mojito", "Thandai", "Mango Lassi"],
+        "starters": ["Paneer Tikka", "Chicken Tikka", "Hara Bhara Kebab", "Fish Tikka", "Dahi Puri"],
+        "liveStations": ["Pani Puri Counter", "Pav Bhaji Station", "Dosa Station", "Taco-Tikka Fusion Station"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Butter Chicken", "Veg Biryani", "Chicken Biryani", "Garlic Naan", "Butter Roti"],
+        "desserts": ["Rasmalai", "Gulab Jamun", "Kulfi Station", "Kaju Katli"],
+        "drinks": ["Thandai", "Mango Lassi", "Virgin Mojito", "Masala Chai"],
+        "accompaniments": ["Raita", "Green Salad", "Papad"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Paneer Tikka", "Samosa", "Pani Puri"],
+        "drinks": ["Virgin Mojito", "Masala Chai", "Mango Lassi"],
+        "dessert": ["Gulab Jamun"]
+      }
+    },
+    {
+      "eventId": "wedding-ceremony-lunch",
+      "eventType": "Wedding Ceremony Lunch",
+      "standardRecommendedMenu": {
+        "starters": ["Paneer Tikka", "Samosa", "Dahi Puri"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Mixed Veg Curry", "Chole", "Veg Biryani", "Jeera Rice", "Naan", "Butter Roti", "Tandoori Roti"],
+        "desserts": ["Gulab Jamun", "Jalebi", "Kheer", "Motichoor Ladoo"],
+        "drinks": ["Masala Chai", "Lassi", "Rose Sharbat"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Rose Sharbat", "Thandai", "Fresh Juice Counter"],
+        "starters": ["Paneer Tikka", "Hara Bhara Kebab", "Dahi Puri", "Aloo Tikki"],
+        "liveStations": ["Chaat Counter", "Chole Bhature Station", "Dosa Station"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Malai Kofta", "Palak Paneer", "Chole", "Veg Biryani", "Jeera Rice", "Garlic Naan", "Butter Roti", "Tandoori Roti"],
+        "desserts": ["Rasmalai", "Gulab Jamun", "Jalebi", "Gajar Ka Halwa", "Kheer", "Kaju Katli", "Motichoor Ladoo"],
+        "drinks": ["Masala Chai", "Lassi", "Rose Sharbat", "Fresh Juice Counter", "Thandai"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Samosa", "Pakora", "Dahi Puri"],
+        "mains": ["Chole Bhature", "Rajma Chawal"],
+        "drinks": ["Masala Chai", "Lassi"],
+        "dessert": ["Gulab Jamun", "Jalebi"]
+      }
+    },
+    {
+      "eventId": "wedding-ceremony-dinner",
+      "eventType": "Wedding Ceremony Dinner",
+      "standardRecommendedMenu": {
+        "starters": ["Paneer Tikka", "Chicken Tikka", "Hara Bhara Kebab", "Dahi Puri"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Butter Chicken", "Malai Kofta", "Veg Biryani", "Jeera Rice", "Garlic Naan", "Butter Roti", "Tandoori Roti"],
+        "desserts": ["Gulab Jamun", "Rasmalai", "Gajar Ka Halwa", "Motichoor Ladoo"],
+        "drinks": ["Masala Chai", "Thandai", "Lassi"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Thandai", "Rose Sharbat", "Virgin Mojito"],
+        "starters": ["Paneer Tikka", "Chicken Tikka", "Fish Tikka", "Hara Bhara Kebab", "Dahi Puri"],
+        "liveStations": ["Chaat Counter", "Biryani Station", "Kulfi Falooda Station"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Malai Kofta", "Paneer Butter Masala", "Butter Chicken", "Mutton Rogan Josh", "Veg Biryani", "Chicken Biryani", "Jeera Rice", "Garlic Naan", "Butter Roti", "Tandoori Roti"],
+        "desserts": ["Rasmalai", "Gulab Jamun", "Gajar Ka Halwa", "Kheer", "Kulfi Station", "Kaju Katli", "Motichoor Ladoo"],
+        "drinks": ["Thandai", "Mango Lassi", "Masala Chai", "Virgin Mojito", "Rose Sharbat"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Paneer Tikka", "Samosa", "Dahi Puri"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Jeera Rice", "Naan"],
+        "drinks": ["Masala Chai", "Lassi"],
+        "dessert": ["Gulab Jamun", "Rasmalai"]
+      }
+    },
+    {
+      "eventId": "reception",
+      "eventType": "Reception",
+      "standardRecommendedMenu": {
+        "starters": ["Paneer Tikka", "Chicken Tikka", "Hara Bhara Kebab", "Dahi Puri"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Butter Chicken", "Veg Biryani", "Garlic Naan", "Butter Roti"],
+        "desserts": ["Rasmalai", "Gulab Jamun", "Kaju Katli"],
+        "drinks": ["Mango Lassi", "Virgin Mojito", "Masala Chai"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Virgin Mojito", "Thandai", "Mango Lassi", "Rose Sharbat"],
+        "starters": ["Paneer Tikka", "Chicken Tikka", "Fish Tikka", "Hara Bhara Kebab", "Dahi Puri"],
+        "liveStations": ["Pani Puri Counter", "Dosa Station", "Kulfi Falooda Station", "Pasta & Risotto Station"],
+        "mains": ["Dal Makhani", "Shahi Paneer", "Malai Kofta", "Paneer Butter Masala", "Butter Chicken", "Mutton Rogan Josh", "Veg Biryani", "Chicken Biryani", "Jeera Rice", "Garlic Naan", "Butter Roti", "Tandoori Roti"],
+        "desserts": ["Rasmalai", "Gulab Jamun", "Kulfi Station", "Gajar Ka Halwa", "Kaju Katli", "Phirni"],
+        "drinks": ["Thandai", "Mango Lassi", "Virgin Mojito", "Masala Chai", "Rose Sharbat"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Paneer Tikka", "Chicken Tikka", "Dahi Puri", "Pani Puri"],
+        "drinks": ["Virgin Mojito", "Mango Lassi", "Masala Chai"],
+        "dessert": ["Rasmalai", "Gulab Jamun"]
+      }
+    },
+    {
+      "eventId": "farewell-brunch",
+      "eventType": "Farewell Brunch",
+      "standardRecommendedMenu": {
+        "starters": ["Samosa", "Pakora", "Aloo Tikki"],
+        "mains": ["Chole Bhature", "Rajma Chawal", "Palak Paneer", "Idli Sambhar", "Butter Roti"],
+        "desserts": ["Gulab Jamun", "Jalebi", "Gajar Ka Halwa"],
+        "drinks": ["Masala Chai", "Lassi", "Fresh Juice Counter"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "premiumRecommendedMenu": {
+        "welcomeDrinks": ["Fresh Juice Counter", "Mango Lassi", "Masala Chai"],
+        "starters": ["Samosa", "Pakora", "Aloo Tikki", "Bhel Puri"],
+        "liveStations": ["Dosa Station", "Chole Bhature Station", "Pav Bhaji Station"],
+        "mains": ["Chole Bhature", "Rajma Chawal", "Palak Paneer", "Dal Tadka", "Mixed Veg Curry", "Idli Sambhar", "Jeera Rice", "Butter Roti", "Naan"],
+        "desserts": ["Gulab Jamun", "Jalebi", "Gajar Ka Halwa", "Kheer"],
+        "drinks": ["Masala Chai", "Lassi", "Mango Lassi", "Fresh Juice Counter"],
+        "accompaniments": ["Raita", "Green Salad", "Papad", "Pickle & Chutney Platter"]
+      },
+      "lightFunctionMenu": {
+        "snacks": ["Samosa", "Pakora", "Bhel Puri"],
+        "drinks": ["Masala Chai", "Fresh Juice Counter"],
+        "dessert": ["Jalebi"]
+      }
+    }
+  ]
+}

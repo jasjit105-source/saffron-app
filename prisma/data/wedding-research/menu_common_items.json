@@ -1,0 +1,405 @@
+{
+  "version": "1.0.0",
+  "commonItems": [
+    {
+      "itemName": "Paneer Tikka",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "sangeet", "wedding-lunch", "reception"],
+      "commonWhy": "Universal crowd-pleaser, easy to prepare, vegetarian",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Can be served as starter or live station item"
+    },
+    {
+      "itemName": "Samosa",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "haldi", "sangeet", "farewell-brunch"],
+      "commonWhy": "Classic Indian snack, easy to serve in bulk, universally loved",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Can be filled with potato, paneer, or mixed veg"
+    },
+    {
+      "itemName": "Dal Makhani",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "wedding-dinner", "reception"],
+      "commonWhy": "Rich, creamy lentil dish that pairs with everything",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Slow-cooked for best flavor; a Punjabi wedding staple"
+    },
+    {
+      "itemName": "Dal Tadka",
+      "appearsInEvents": ["welcome-dinner", "haldi", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Lighter dal option, comfort food, easy to scale",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Yellow dal tempered with cumin and ghee"
+    },
+    {
+      "itemName": "Shahi Paneer",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "wedding-dinner", "reception"],
+      "commonWhy": "Premium paneer dish, rich and festive",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Cashew and cream-based gravy"
+    },
+    {
+      "itemName": "Palak Paneer",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Balanced and nutritious, appeals to health-conscious guests",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Spinach-based, pairs well with roti and naan"
+    },
+    {
+      "itemName": "Butter Chicken",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "wedding-dinner", "reception"],
+      "commonWhy": "Most popular non-veg dish at Indian weddings",
+      "vegNonVegJain": "non-veg",
+      "popularityLevel": "high",
+      "notes": "Creamy tomato-based chicken curry"
+    },
+    {
+      "itemName": "Chicken Tikka",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "reception"],
+      "commonWhy": "Popular tandoor starter, pairs with drinks",
+      "vegNonVegJain": "non-veg",
+      "popularityLevel": "high",
+      "notes": "Served with mint chutney and onion rings"
+    },
+    {
+      "itemName": "Mutton Rogan Josh",
+      "appearsInEvents": ["wedding-dinner", "reception"],
+      "commonWhy": "Premium non-veg main course, special occasion dish",
+      "vegNonVegJain": "non-veg",
+      "popularityLevel": "medium",
+      "notes": "Slow-cooked Kashmiri-style lamb curry"
+    },
+    {
+      "itemName": "Fish Tikka",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "reception"],
+      "commonWhy": "Light non-veg starter, popular in coastal and Punjabi weddings",
+      "vegNonVegJain": "non-veg",
+      "popularityLevel": "medium",
+      "notes": "Tandoor-cooked, served with lemon and chutney"
+    },
+    {
+      "itemName": "Veg Biryani",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "wedding-lunch", "reception"],
+      "commonWhy": "Aromatic rice dish that serves as a complete meal",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Layered with saffron, fried onions, and mixed vegetables"
+    },
+    {
+      "itemName": "Chicken Biryani",
+      "appearsInEvents": ["welcome-dinner", "wedding-dinner", "reception"],
+      "commonWhy": "Grand non-veg rice dish, expected at large celebrations",
+      "vegNonVegJain": "non-veg",
+      "popularityLevel": "high",
+      "notes": "Hyderabadi or Lucknowi style most popular"
+    },
+    {
+      "itemName": "Jeera Rice",
+      "appearsInEvents": ["welcome-dinner", "haldi", "wedding-lunch", "wedding-dinner", "farewell-brunch"],
+      "commonWhy": "Simple cumin-flavored rice, pairs with any curry",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Light alternative to biryani"
+    },
+    {
+      "itemName": "Naan",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "sangeet", "wedding-lunch", "wedding-dinner", "reception", "farewell-brunch"],
+      "commonWhy": "Essential Indian bread, expected at every meal",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Butter naan is the default; garlic naan for premium"
+    },
+    {
+      "itemName": "Garlic Naan",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "wedding-dinner", "reception"],
+      "commonWhy": "Elevated version of plain naan, aromatic and flavorful",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Topped with garlic and coriander"
+    },
+    {
+      "itemName": "Butter Roti",
+      "appearsInEvents": ["welcome-dinner", "haldi", "wedding-lunch", "wedding-dinner", "farewell-brunch"],
+      "commonWhy": "Light bread option, preferred by older guests",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Whole wheat, brushed with butter"
+    },
+    {
+      "itemName": "Tandoori Roti",
+      "appearsInEvents": ["wedding-lunch", "wedding-dinner", "reception"],
+      "commonWhy": "Healthier bread option from tandoor",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Whole wheat, clay-oven baked"
+    },
+    {
+      "itemName": "Gulab Jamun",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "haldi", "sangeet", "wedding-lunch", "wedding-dinner", "reception", "farewell-brunch"],
+      "commonWhy": "The single most popular Indian wedding dessert",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Served warm in sugar syrup"
+    },
+    {
+      "itemName": "Rasmalai",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "wedding-dinner", "reception"],
+      "commonWhy": "Premium chilled dessert, elegant and rich",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Soft paneer discs in sweetened saffron milk"
+    },
+    {
+      "itemName": "Jalebi",
+      "appearsInEvents": ["mehndi", "haldi", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Festive sweet, bright color adds to celebration vibe",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Best served hot and crispy"
+    },
+    {
+      "itemName": "Kulfi",
+      "appearsInEvents": ["sangeet", "wedding-dinner", "reception"],
+      "commonWhy": "Traditional Indian ice cream, great for warm weather",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Served as kulfi stick or kulfi falooda station"
+    },
+    {
+      "itemName": "Gajar Ka Halwa",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "wedding-dinner", "farewell-brunch"],
+      "commonWhy": "Warm dessert ideal for winter weddings",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Made with grated carrots, khoya, and nuts"
+    },
+    {
+      "itemName": "Kheer",
+      "appearsInEvents": ["wedding-lunch", "wedding-dinner", "farewell-brunch"],
+      "commonWhy": "Traditional rice pudding served at auspicious occasions",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Rice or vermicelli based"
+    },
+    {
+      "itemName": "Masala Chai",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "haldi", "sangeet", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Essential Indian beverage, served at every gathering",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Spiced tea with cardamom, ginger, and cinnamon"
+    },
+    {
+      "itemName": "Lassi",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "haldi", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Refreshing yogurt drink, both sweet and salted variants",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Sweet lassi, mango lassi, or salted lassi"
+    },
+    {
+      "itemName": "Mango Lassi",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "reception"],
+      "commonWhy": "Premium lassi variant, tropical and refreshing",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Best with Alphonso mango pulp"
+    },
+    {
+      "itemName": "Rose Sharbat",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "haldi", "wedding-lunch"],
+      "commonWhy": "Traditional welcome drink with rose flavor",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Served chilled with rose petals"
+    },
+    {
+      "itemName": "Thandai",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "wedding-dinner", "reception"],
+      "commonWhy": "Festive spiced milk drink, associated with celebrations",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Made with almonds, fennel, cardamom, and saffron"
+    },
+    {
+      "itemName": "Pani Puri",
+      "appearsInEvents": ["mehndi", "sangeet", "reception"],
+      "commonWhy": "Most popular chaat item, interactive and fun to eat",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Best served as live counter station"
+    },
+    {
+      "itemName": "Dahi Puri",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "sangeet", "reception"],
+      "commonWhy": "Milder chaat option, sweet and tangy",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Topped with yogurt, chutneys, and sev"
+    },
+    {
+      "itemName": "Bhel Puri",
+      "appearsInEvents": ["mehndi", "sangeet", "farewell-brunch"],
+      "commonWhy": "Light puffed rice chaat, easy to serve in bulk",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Tossed fresh at live counter"
+    },
+    {
+      "itemName": "Aloo Tikki",
+      "appearsInEvents": ["mehndi", "haldi", "sangeet", "farewell-brunch"],
+      "commonWhy": "Crispy potato patty, filling and satisfying",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Served with chutneys and yogurt"
+    },
+    {
+      "itemName": "Pakora",
+      "appearsInEvents": ["mehndi", "haldi", "sangeet", "farewell-brunch"],
+      "commonWhy": "Deep-fried fritters, perfect tea-time snack",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Onion, spinach, or mixed vegetable varieties"
+    },
+    {
+      "itemName": "Hara Bhara Kebab",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "reception"],
+      "commonWhy": "Green vegetable kebab, lighter starter option",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Made with spinach, peas, and potatoes"
+    },
+    {
+      "itemName": "Malai Kofta",
+      "appearsInEvents": ["wedding-lunch", "wedding-dinner", "reception"],
+      "commonWhy": "Rich paneer-potato dumplings in creamy gravy, premium veg dish",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Stuffed koftas in cashew cream sauce"
+    },
+    {
+      "itemName": "Chole Bhature",
+      "appearsInEvents": ["haldi", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Hearty Punjabi staple, filling and festive",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Spiced chickpeas with deep-fried bread"
+    },
+    {
+      "itemName": "Rajma Chawal",
+      "appearsInEvents": ["haldi", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Comfort food, Punjabi home-style dish",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Kidney bean curry served with steamed rice"
+    },
+    {
+      "itemName": "Mixed Veg Curry",
+      "appearsInEvents": ["welcome-dinner", "haldi", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Safe option that appeals to all, easy to prepare",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Seasonal vegetables in mild tomato-onion gravy"
+    },
+    {
+      "itemName": "Paneer Butter Masala",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "wedding-dinner", "reception"],
+      "commonWhy": "Rich and creamy paneer curry, universally loved",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Tomato and butter-based gravy with paneer cubes"
+    },
+    {
+      "itemName": "Raita",
+      "appearsInEvents": ["welcome-dinner", "mehndi", "haldi", "wedding-lunch", "wedding-dinner", "reception", "farewell-brunch"],
+      "commonWhy": "Essential accompaniment to biryani and spicy dishes",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Boondi, cucumber, or mixed veg raita"
+    },
+    {
+      "itemName": "Green Salad",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "wedding-dinner", "reception", "farewell-brunch"],
+      "commonWhy": "Fresh accompaniment, expected at every meal",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Cucumber, onion, tomato, lemon with chaat masala"
+    },
+    {
+      "itemName": "Papad",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "wedding-dinner", "reception", "farewell-brunch"],
+      "commonWhy": "Crispy accompaniment, easy and inexpensive to include",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Roasted or fried, served with pickle"
+    },
+    {
+      "itemName": "Pickle & Chutney Platter",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "wedding-dinner", "reception", "farewell-brunch"],
+      "commonWhy": "Traditional accompaniment that adds flavor variety",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Mango pickle, mint chutney, tamarind chutney"
+    },
+    {
+      "itemName": "Pav Bhaji",
+      "appearsInEvents": ["mehndi", "sangeet", "farewell-brunch"],
+      "commonWhy": "Street food favorite, works great as live counter",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Buttery mashed vegetable curry with toasted pav"
+    },
+    {
+      "itemName": "Dosa Station",
+      "appearsInEvents": ["sangeet", "reception", "farewell-brunch"],
+      "commonWhy": "South Indian live counter, interactive and versatile",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Masala dosa, plain dosa, rava dosa options"
+    },
+    {
+      "itemName": "Idli Sambhar",
+      "appearsInEvents": ["farewell-brunch", "wedding-lunch"],
+      "commonWhy": "Light South Indian breakfast option",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Steamed rice cakes with lentil soup and coconut chutney"
+    },
+    {
+      "itemName": "Virgin Mojito",
+      "appearsInEvents": ["welcome-dinner", "sangeet", "reception"],
+      "commonWhy": "Popular non-alcoholic cocktail, refreshing",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Lime, mint, and soda based"
+    },
+    {
+      "itemName": "Fresh Juice Counter",
+      "appearsInEvents": ["haldi", "wedding-lunch", "farewell-brunch"],
+      "commonWhy": "Healthy beverage option, looks colorful",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "medium",
+      "notes": "Orange, watermelon, pomegranate, mixed fruit"
+    },
+    {
+      "itemName": "Motichoor Ladoo",
+      "appearsInEvents": ["mehndi", "haldi", "wedding-lunch", "wedding-dinner"],
+      "commonWhy": "Auspicious sweet distributed at ceremonies",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Often given as ceremonial sweet"
+    },
+    {
+      "itemName": "Kaju Katli",
+      "appearsInEvents": ["welcome-dinner", "wedding-lunch", "reception"],
+      "commonWhy": "Premium Indian sweet, considered high-end",
+      "vegNonVegJain": "veg",
+      "popularityLevel": "high",
+      "notes": "Cashew fudge, often served at dessert counters"
+    }
+  ]
+}
