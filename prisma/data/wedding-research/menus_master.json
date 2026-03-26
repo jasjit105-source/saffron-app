@@ -1,0 +1,2912 @@
+{
+  "version": "1.0.0",
+  "generatedDate": "2026-03-26",
+  "description": "Comprehensive Indian wedding catering menu dataset for destination weddings in Mexico. Covers 8 events across a multi-day celebration with vegetarian-heavy options, Jain-friendly alternatives, and Indian-Mexican fusion touches where appropriate. Designed for professional catering planning with sourcing notes for Mexico.",
+  "events": [
+    {
+      "id": "welcome-dinner",
+      "eventType": "Welcome Dinner",
+      "eventStyle": "Casual elegant, Indian-Mexican fusion",
+      "recommendedServiceStyle": "buffet with live stations",
+      "mealIntensity": "full",
+      "idealCuisineApproach": "Indian comfort food with local Mexican touches",
+      "notes": "First gathering — keep it approachable. Guests arriving from travel, so include familiar comfort items alongside fusion surprises. This sets the tone for the wedding weekend.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Mango Lassi Shots",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Served in small shot glasses on arrival. Mexican mangoes (Manila/Ataulfo) work beautifully here.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Jaljeera Welcome Drink",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "haldi", "sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Jaljeera powder needs to be imported or prepared from scratch. Cumin and mint base is sourced locally.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Rose Sharbat with Basil Seeds",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Rooh Afza or rose syrup must be imported. Basil seeds (sabja) available at specialty stores.",
+            "estimatedPricePerPersonUSD": 1.25
+          }
+        ],
+        "starters": [
+          {
+            "itemName": "Paneer Tikka",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Always a crowd-pleaser. Paneer can be made fresh or sourced from Indian stores in major Mexican cities. Can be made in tandoor or oven.",
+            "estimatedPricePerPersonUSD": 3.50
+          },
+          {
+            "itemName": "Hara Bhara Kebab",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Spinach and pea patties. All ingredients easily available in Mexico.",
+            "estimatedPricePerPersonUSD": 2.75
+          },
+          {
+            "itemName": "Corn and Cheese Tikki",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Mexican Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["welcome-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Perfect fusion starter using Mexican corn. Served with green chutney.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Vegetable Spring Rolls with Tamarind Dip",
+            "category": "starters",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indo-Chinese",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Jain version uses cabbage, carrots, and beans — no onion or garlic. Tamarind easily sourced in Mexico.",
+            "estimatedPricePerPersonUSD": 2.25
+          }
+        ],
+        "chaatAndStreetFood": [
+          {
+            "itemName": "Pani Puri Station",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Puris must be imported or made on-site. Jain version uses no onion. Huge crowd favorite — budget for high consumption.",
+            "estimatedPricePerPersonUSD": 3.00
+          },
+          {
+            "itemName": "Bhel Puri",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Puffed rice and sev need to be imported. Jain version omits onion.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "lightSnacks": [],
+        "mains": [
+          {
+            "itemName": "Paneer Butter Masala",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Universally loved. Tomato and cream base easy to prepare anywhere.",
+            "estimatedPricePerPersonUSD": 4.00
+          },
+          {
+            "itemName": "Chole (Chickpea Curry)",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "wedding-ceremony-lunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Chickpeas widely available in Mexico. Chole masala powder should be imported for authentic taste.",
+            "estimatedPricePerPersonUSD": 2.75
+          },
+          {
+            "itemName": "Mexican-Style Rajma (Kidney Bean Curry)",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Mexican Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["welcome-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Fusion twist — Mexican kidney beans prepared in Indian rajma style with local chiles. Perfect for the welcome night theme.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "dals": [
+          {
+            "itemName": "Dal Makhani",
+            "category": "dals",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Urad dal and kidney beans — urad dal must be imported. Needs slow cooking for best results.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "paneerDishes": [
+          {
+            "itemName": "Kadai Paneer",
+            "category": "paneerDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Bell peppers and tomatoes easily available. Paneer should be fresh-made for best quality.",
+            "estimatedPricePerPersonUSD": 4.00
+          }
+        ],
+        "vegetableDishes": [
+          {
+            "itemName": "Aloo Gobi",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "wedding-ceremony-lunch", "farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Potatoes and cauliflower widely available. Comfort food staple.",
+            "estimatedPricePerPersonUSD": 2.25
+          },
+          {
+            "itemName": "Baingan Bharta",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["welcome-dinner", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Smoky roasted eggplant dish. Eggplants excellent quality in Mexico.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "rice": [
+          {
+            "itemName": "Jeera Rice",
+            "category": "rice",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "wedding-ceremony-lunch", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Basmati rice must be imported for authentic flavor. Local long-grain rice is an acceptable substitute.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Vegetable Pulao",
+            "category": "rice",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Mixed vegetables with basmati. Aromatic and colorful.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "breads": [
+          {
+            "itemName": "Butter Naan",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Requires tandoor setup. All-purpose flour and butter easily available.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Garlic Naan",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Fresh garlic abundantly available in Mexico.",
+            "estimatedPricePerPersonUSD": 1.25
+          },
+          {
+            "itemName": "Tandoori Roti",
+            "category": "breads",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Whole wheat flour available. Jain-friendly — no onion or garlic.",
+            "estimatedPricePerPersonUSD": 0.75
+          }
+        ],
+        "accompaniments": [
+          {
+            "itemName": "Raita (Boondi / Cucumber)",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "wedding-ceremony-lunch", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Yogurt easily available. Boondi may need to be imported.",
+            "estimatedPricePerPersonUSD": 0.75
+          },
+          {
+            "itemName": "Mixed Pickle (Achar)",
+            "category": "accompaniments",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "wedding-ceremony-lunch", "wedding-ceremony-dinner", "farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Best imported from India. Making from scratch is time-consuming. Jain versions available without garlic.",
+            "estimatedPricePerPersonUSD": 0.50
+          },
+          {
+            "itemName": "Green Chutney (Mint-Coriander)",
+            "category": "accompaniments",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "sangeet", "wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Fresh cilantro and mint abundantly available in Mexico.",
+            "estimatedPricePerPersonUSD": 0.50
+          },
+          {
+            "itemName": "Tamarind Chutney (Sweet)",
+            "category": "accompaniments",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Tamarind is a common Mexican ingredient. Easy to prepare fresh.",
+            "estimatedPricePerPersonUSD": 0.50
+          }
+        ],
+        "desserts": [
+          {
+            "itemName": "Gulab Jamun",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Khoya/mawa must be imported or made from scratch by reducing milk. Instant mix can be imported as backup.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Churros with Rabri Dipping Sauce",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Mexican Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["welcome-dinner"],
+            "popularityLevel": "high",
+            "notes": "Signature fusion dessert for welcome night. Churros are local; rabri made by reducing sweetened milk with cardamom and saffron.",
+            "easyToSourceInMexico": true,
+            "estimatedPricePerPersonUSD": 3.00
+          },
+          {
+            "itemName": "Kulfi (Mango and Pistachio)",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "sangeet", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican mangoes are excellent for mango kulfi. Pistachios may be pricier but available.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Masala Chai",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "haldi", "sangeet", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Indian tea leaves (CTC) must be imported. Spices like cardamom and ginger available locally. Essential — never skip this.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Virgin Mojito (Mint Lime Cooler)",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "International",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "haldi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Limes and mint are staples in Mexico. Perfect for warm weather.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Nimbu Pani (Fresh Lemonade)",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "haldi", "wedding-ceremony-lunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican limes are superior to Indian nimbu — excellent quality here.",
+            "estimatedPricePerPersonUSD": 0.75
+          }
+        ],
+        "liveStations": [
+          {
+            "itemName": "Chaat Counter",
+            "category": "liveStations",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Sev, papdi, puri must be imported. Station serves pani puri, bhel puri, sev puri, dahi puri. Jain options available without onion. Needs a dedicated counter attendant.",
+            "estimatedPricePerPersonUSD": 5.00
+          },
+          {
+            "itemName": "Taco Station (Indian-Mexican Fusion)",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Mexican Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["welcome-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Corn tortillas filled with paneer tikka, chole, or tandoori vegetables. Topped with green chutney and pickled onions. A highlight fusion station for the welcome event.",
+            "estimatedPricePerPersonUSD": 4.50
+          },
+          {
+            "itemName": "Tandoor Counter",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["welcome-dinner", "sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Requires transporting or renting a tandoor oven. Live naan, roti, paneer tikka, and tandoori vegetables. Dramatic visual appeal.",
+            "estimatedPricePerPersonUSD": 6.00
+          }
+        ]
+      }
+    },
+    {
+      "id": "mehndi",
+      "eventType": "Mehndi",
+      "eventStyle": "Vibrant, colorful, festive daytime celebration",
+      "recommendedServiceStyle": "food trucks and grazing stations",
+      "mealIntensity": "snack-heavy with light meal options",
+      "idealCuisineApproach": "Chaat-focused, colorful drinks, light and fun",
+      "notes": "Guests have mehndi on their hands — food must be easy to eat without utensils or served in small portions. Focus on finger foods and chaat. Bright, colorful presentation to match the festive vibe.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Aam Panna (Raw Mango Cooler)",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "haldi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Raw green mangoes seasonally available in Mexico. Refreshing and tangy.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Thandai",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Rajasthani / North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "haldi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Requires specific spice mix — fennel seeds, poppy seeds, rose petals. Best to import thandai masala. Almonds and milk locally available.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Mango Shake",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "haldi", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican Ataulfo mangoes make exceptional shakes. Sweet and creamy.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Kokum Sharbat",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Konkani / Goan",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi"],
+            "popularityLevel": "low",
+            "easyToSourceInMexico": false,
+            "notes": "Kokum syrup must be imported. Unique deep purple color adds to mehndi theme. Digestive properties.",
+            "estimatedPricePerPersonUSD": 1.75
+          }
+        ],
+        "starters": [
+          {
+            "itemName": "Samosa (Mini)",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mini cocktail-size samosas — easy to eat with mehndi on hands. Potato and pea filling.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Kachori (Mini Raj Kachori)",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Rajasthani",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi", "sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Kachori shells can be pre-made and shipped. Filled with moong dal, yogurt, and chutneys.",
+            "estimatedPricePerPersonUSD": 2.75
+          },
+          {
+            "itemName": "Paneer Kathi Roll (Mini Wraps)",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Kolkata Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Small wraps easy to hold with mehndi hands. Paneer and bell peppers in paratha wrap.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "chaatAndStreetFood": [
+          {
+            "itemName": "Sev Puri",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Puris and sev imported. Assembled to order. Jain version without onion.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Dahi Puri",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Bite-sized — perfect for mehndi. Yogurt filling keeps it cool.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Papdi Chaat",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "welcome-dinner", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Papdi must be imported. Assembled with yogurt, chutneys, and sev.",
+            "estimatedPricePerPersonUSD": 2.75
+          },
+          {
+            "itemName": "Aloo Tikki Chaat",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Delhi Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Potato patties with yogurt and chutneys. All ingredients locally available.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Corn Chaat (Masala Corn)",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Street Food",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi", "haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican corn is perfect here. Served with lime, chaat masala, and butter. Natural fusion.",
+            "estimatedPricePerPersonUSD": 1.75
+          },
+          {
+            "itemName": "Ragda Pattice",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Potato patties with white pea curry. Hearty street food option.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "lightSnacks": [
+          {
+            "itemName": "Masala Peanuts",
+            "category": "lightSnacks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "haldi", "sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Roasted peanuts with curry leaves and spices. Quick snack between mehndi sessions. Peanuts abundantly available.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Khakhra with Chutneys",
+            "category": "lightSnacks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi", "haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Must be imported. Thin crispy flatbreads — easy finger food. Popular with Gujarati and Jain guests.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Dhokla (Steamed)",
+            "category": "lightSnacks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi", "haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Gram flour batter needs specific fermentation. Instant mix can be imported. Light and spongy.",
+            "estimatedPricePerPersonUSD": 1.75
+          }
+        ],
+        "mains": [],
+        "dals": [],
+        "paneerDishes": [],
+        "vegetableDishes": [],
+        "rice": [],
+        "breads": [],
+        "accompaniments": [
+          {
+            "itemName": "Assorted Chutneys (Green, Tamarind, Garlic)",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet", "welcome-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Fresh herbs and tamarind available locally. Essential for chaat stations.",
+            "estimatedPricePerPersonUSD": 1.00
+          }
+        ],
+        "desserts": [
+          {
+            "itemName": "Jalebi (Fresh Fried)",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet", "wedding-ceremony-lunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Made fresh at live station — dramatic visual appeal. Saffron-colored, matches mehndi theme. All ingredients available locally.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Rabri with Malpua",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Rajasthani",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Sweet pancakes with thickened sweetened milk. All dairy ingredients available.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Falooda",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi", "sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Falooda sev (vermicelli) and rose syrup need importing. Ice cream and milk local. Colorful layered presentation perfect for mehndi.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Sweet Lassi",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "haldi", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Yogurt-based drink. Mexican yogurt works well. Served chilled with cardamom.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Rose Milk",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Rose syrup (Rooh Afza) must be imported. Beautiful pink color matches mehndi aesthetic.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Fruit Punch (Tropical Indian)",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi", "haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican tropical fruits (guava, papaya, mango) with Indian spice twist — chaat masala rim, black salt.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "liveStations": [
+          {
+            "itemName": "Chaat Counter (Full Service)",
+            "category": "liveStations",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["mehndi", "sangeet", "welcome-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "The centerpiece of mehndi food. Pani puri, sev puri, dahi puri, bhel puri, papdi chaat all served from one station. Import all chaat components.",
+            "estimatedPricePerPersonUSD": 6.00
+          },
+          {
+            "itemName": "Jalebi Station (Live Frying)",
+            "category": "liveStations",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["mehndi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Live jalebi frying is a visual spectacle. Batter fermented overnight. Saffron sugar syrup. Great Instagram moment.",
+            "estimatedPricePerPersonUSD": 4.00
+          }
+        ]
+      }
+    },
+    {
+      "id": "haldi",
+      "eventType": "Haldi",
+      "eventStyle": "Bright, intimate, daytime ceremony",
+      "recommendedServiceStyle": "light buffet and passed appetizers",
+      "mealIntensity": "light",
+      "idealCuisineApproach": "Light daytime food, fresh drinks, easy cleanup. Nothing heavy or greasy — turmeric is already messy enough.",
+      "notes": "Haldi is messy with turmeric paste. Keep food simple, light, and away from the main ceremony area. Fresh juices and light bites work best. Easy cleanup is essential.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Haldi Doodh (Turmeric Latte)",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Ayurvedic Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Thematic — turmeric milk served warm or iced. Turmeric and milk locally available. Can add honey and black pepper.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Fresh Coconut Water",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "South Indian / Tropical",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["haldi", "mehndi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Abundantly available in coastal Mexico. Served in the coconut shell for presentation. Hydrating and refreshing.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Cucumber Mint Cooler",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Fusion",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["haldi", "mehndi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Light and refreshing. All ingredients local. Served with black salt.",
+            "estimatedPricePerPersonUSD": 1.25
+          }
+        ],
+        "starters": [
+          {
+            "itemName": "Idli with Coconut Chutney (Mini)",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi", "farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Idli batter needs urad dal (imported) and fermentation time. Mini size for easy eating. Light and healthy.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Fruit Chaat",
+            "category": "starters",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["haldi", "mehndi", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican tropical fruits with chaat masala and lime. Extremely fresh and light. Perfect for daytime outdoor event.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Khandvi",
+            "category": "starters",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "low",
+            "easyToSourceInMexico": true,
+            "notes": "Gram flour rolls tempered with mustard and curry leaves. Light and delicate. Requires skilled preparation.",
+            "estimatedPricePerPersonUSD": 2.25
+          }
+        ],
+        "chaatAndStreetFood": [
+          {
+            "itemName": "Puchka / Golgappa (Light Serving)",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["haldi", "mehndi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Smaller portions than at mehndi. Refreshing mint water version. Puris imported.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "lightSnacks": [
+          {
+            "itemName": "Mung Dal Sprout Salad",
+            "category": "lightSnacks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Health Food",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Sprouted mung dal with lime, coriander, and pomegranate. Light and nutritious. Jain-friendly.",
+            "estimatedPricePerPersonUSD": 1.75
+          },
+          {
+            "itemName": "Poha (Flattened Rice)",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Maharashtrian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi", "farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Flattened rice must be imported. Light breakfast-style dish with peanuts, curry leaves, and turmeric.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Pav Bhaji (Mini Portions)",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["haldi", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mixed vegetable mash with buttered bread rolls. Pav bhaji masala should be imported. Smaller portions for haldi.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Upma",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi", "farewell-brunch"],
+            "popularityLevel": "low",
+            "easyToSourceInMexico": false,
+            "notes": "Semolina (sooji/rava) may need importing for specific grade. Light savory porridge.",
+            "estimatedPricePerPersonUSD": 1.50
+          }
+        ],
+        "mains": [],
+        "dals": [],
+        "paneerDishes": [],
+        "vegetableDishes": [],
+        "rice": [
+          {
+            "itemName": "Lemon Rice",
+            "category": "rice",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Light, tangy rice with peanuts and curry leaves. Yellow color matches haldi theme. Mexican limes work perfectly.",
+            "estimatedPricePerPersonUSD": 1.75
+          }
+        ],
+        "breads": [],
+        "accompaniments": [],
+        "desserts": [
+          {
+            "itemName": "Shrikhand (Mango and Saffron)",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati / Maharashtrian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Strained yogurt dessert with saffron. Light and cool. Mexican mangoes for mango variant. Saffron needs importing.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Fresh Fruit Platter with Chaat Masala",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["haldi", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Tropical Mexican fruits — mango, papaya, guava, pineapple — with chaat masala and lime. Light dessert option.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Sugarcane Juice",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Sugarcane available in Mexico. Served fresh with lime and ginger. Refreshing for outdoor daytime event.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Chaas / Buttermilk (Spiced)",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["haldi", "wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Diluted yogurt with cumin, coriander, and curry leaves. Cooling and digestive. All ingredients available.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Fresh Watermelon Juice",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican watermelons are excellent. Add a pinch of black salt and mint. Perfect for hot daytime events.",
+            "estimatedPricePerPersonUSD": 1.25
+          }
+        ],
+        "liveStations": [
+          {
+            "itemName": "Fresh Juice Bar",
+            "category": "liveStations",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["haldi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Live juicing station with tropical fruits, sugarcane, and Indian spiced lemonade options. Great visual element.",
+            "estimatedPricePerPersonUSD": 4.00
+          }
+        ]
+      }
+    },
+    {
+      "id": "sangeet",
+      "eventType": "Sangeet",
+      "eventStyle": "High-energy, festive evening celebration with performances",
+      "recommendedServiceStyle": "buffet with multiple live stations and passed appetizers during performances",
+      "mealIntensity": "full",
+      "idealCuisineApproach": "Festive, varied, fusion-friendly. Stronger variety and bold flavors to match the energy.",
+      "notes": "The party night. Food needs to be available throughout the evening as guests move between performances and dining. Late-night snack options important. Live stations create energy and engagement.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Masala Margarita (Virgin)",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indo-Mexican Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican margarita with Indian twist — chaat masala rim, jalapeño, and cilantro. Signature fusion cocktail moment.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Guava Jaljeera",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indo-Mexican Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican guava blended with jaljeera spices. Fresh and tangy fusion drink.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "starters": [
+          {
+            "itemName": "Paneer 65",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "South Indian (Hyderabadi)",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Spicy, crispy paneer bites. Bold flavors for a party atmosphere. Curry leaves imported or grown locally.",
+            "estimatedPricePerPersonUSD": 3.50
+          },
+          {
+            "itemName": "Gobi Manchurian (Dry)",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Chinese",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Crispy cauliflower in spicy Indo-Chinese sauce. Always a hit at parties.",
+            "estimatedPricePerPersonUSD": 3.00
+          },
+          {
+            "itemName": "Dahi Ke Kebab",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Lucknowi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet", "reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Hung curd patties, lightly fried. Melt-in-mouth texture. Elegant starter.",
+            "estimatedPricePerPersonUSD": 3.00
+          },
+          {
+            "itemName": "Veg Seekh Kebab",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Mixed vegetable and paneer kebabs on skewers. Grilled on tandoor.",
+            "estimatedPricePerPersonUSD": 3.25
+          },
+          {
+            "itemName": "Crispy Corn with Spices",
+            "category": "starters",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indo-Chinese",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican corn kernels deep fried with Indian spices. Easy to eat while standing. No onion/garlic version available.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "chaatAndStreetFood": [
+          {
+            "itemName": "Pani Puri Station",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "welcome-dinner", "mehndi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "High-volume service needed for sangeet crowds. Multiple flavored waters: mint, tamarind, mango.",
+            "estimatedPricePerPersonUSD": 3.50
+          },
+          {
+            "itemName": "Vada Pav (Mini)",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Spiced potato fritter in mini buns. Excellent late-night snack option. Pav can be made locally.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "lightSnacks": [
+          {
+            "itemName": "Chakli / Murukku",
+            "category": "lightSnacks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "South Indian / Maharashtrian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Crunchy spiral snack — best imported pre-made. Served in bowls as table snacks during performances.",
+            "estimatedPricePerPersonUSD": 1.50
+          }
+        ],
+        "mains": [
+          {
+            "itemName": "Paneer Tikka Masala",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Grilled paneer in rich tomato-cream gravy. Crowd favorite across all events.",
+            "estimatedPricePerPersonUSD": 4.50
+          },
+          {
+            "itemName": "Malai Kofta",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Paneer and potato dumplings in creamy gravy. Rich and festive. All ingredients available.",
+            "estimatedPricePerPersonUSD": 4.00
+          },
+          {
+            "itemName": "Mixed Vegetable Jalfrezi",
+            "category": "mains",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Stir-fried vegetables in spicy sauce. Jain version without onion and garlic. Colorful and vibrant.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "dals": [
+          {
+            "itemName": "Dal Tadka (Yellow Dal)",
+            "category": "dals",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-lunch", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Toor or moong dal — must be imported. Simple tempered lentils. Jain-friendly comfort food. Essential everyday dal.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "paneerDishes": [
+          {
+            "itemName": "Palak Paneer",
+            "category": "paneerDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Spinach and paneer — spinach available in Mexico. Rich in iron and presentation.",
+            "estimatedPricePerPersonUSD": 3.75
+          }
+        ],
+        "vegetableDishes": [
+          {
+            "itemName": "Bharwan Shimla Mirch (Stuffed Bell Peppers)",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Bell peppers stuffed with spiced paneer or potato filling. Mexican bell peppers are excellent quality.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "rice": [
+          {
+            "itemName": "Vegetable Biryani",
+            "category": "rice",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Hyderabadi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Layered rice dish. Basmati rice and whole spices imported. Saffron strands needed. Dum cooking method for authentic flavor.",
+            "estimatedPricePerPersonUSD": 4.00
+          }
+        ],
+        "breads": [
+          {
+            "itemName": "Laccha Paratha",
+            "category": "breads",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Layered flaky flatbread. Made on tawa. No onion/garlic — Jain-friendly.",
+            "estimatedPricePerPersonUSD": 1.25
+          },
+          {
+            "itemName": "Cheese Naan",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Naan stuffed with melted cheese. Mexican cheeses like Oaxaca work surprisingly well. Party favorite.",
+            "estimatedPricePerPersonUSD": 1.75
+          }
+        ],
+        "accompaniments": [
+          {
+            "itemName": "Papad (Roasted and Fried Assortment)",
+            "category": "accompaniments",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Papads must be imported. Urad and moong varieties. Served roasted or fried with masala.",
+            "estimatedPricePerPersonUSD": 0.50
+          },
+          {
+            "itemName": "Kachumber Salad",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Diced cucumber, tomato, onion with lemon and chaat masala. All produce locally available.",
+            "estimatedPricePerPersonUSD": 0.75
+          }
+        ],
+        "desserts": [
+          {
+            "itemName": "Rasmalai",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Bengali",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Soft paneer dumplings in saffron-cardamom milk. Can be made fresh with local milk. Premium dessert option.",
+            "estimatedPricePerPersonUSD": 2.75
+          },
+          {
+            "itemName": "Gajar Ka Halwa (Carrot Halwa)",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Grated carrot slow-cooked with milk, sugar, and ghee. Mexican carrots available but may lack the deep red color of Indian Delhi carrots. Garnish with nuts.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Ice Cream and Kulfi Station",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Assorted kulfi (malai, pista, mango) and ice cream. Kulfi can be made in advance and stored. Various toppings.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Masala Chai",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "welcome-dinner", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Essential for late-night chai service after performances. CTC tea imported.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Filter Coffee",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican coffee beans make excellent filter coffee. South Indian filter and chicory blend may need importing. Strong decoction with milk.",
+            "estimatedPricePerPersonUSD": 1.50
+          }
+        ],
+        "liveStations": [
+          {
+            "itemName": "Dosa Station",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Live dosa making — masala, plain, cheese, and mysore varieties. Batter requires urad dal (imported) and fermentation. Dramatic visual element with large tawa. Late-night favorite.",
+            "estimatedPricePerPersonUSD": 5.00
+          },
+          {
+            "itemName": "Pasta Station (Indo-Italian Fusion)",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Italian Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["sangeet"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Live pasta tossing with Indian-spiced sauces — tikka masala pasta, curry pesto, etc. Appeals to younger crowd. All ingredients available in Mexico.",
+            "estimatedPricePerPersonUSD": 5.00
+          },
+          {
+            "itemName": "Paan Station",
+            "category": "liveStations",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Traditional",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Betel leaves, gulkand, supari, and all paan ingredients must be imported. Meetha paan only (no tobacco). Fire paan is a showstopper. Needs a skilled paanwala.",
+            "estimatedPricePerPersonUSD": 3.50
+          },
+          {
+            "itemName": "Live Tandoor Counter",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["sangeet", "welcome-dinner", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Fresh naan, paneer tikka, tandoori mushroom, stuffed kulcha. Requires tandoor oven setup.",
+            "estimatedPricePerPersonUSD": 6.00
+          }
+        ]
+      }
+    },
+    {
+      "id": "wedding-ceremony-lunch",
+      "eventType": "Wedding Ceremony Lunch",
+      "eventStyle": "Traditional, auspicious, multi-course sit-down",
+      "recommendedServiceStyle": "plated or traditional thali service",
+      "mealIntensity": "full",
+      "idealCuisineApproach": "Traditional Indian — no fusion. Auspicious foods. Multi-course thali format preferred.",
+      "notes": "This is the most traditional meal. Keep it authentically Indian. No fusion experiments here. Jain and vegetarian options are critical. Thali format creates a grand impression and ensures variety.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Rose Sharbat",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Rose syrup imported. Served chilled. Traditional and auspicious.",
+            "estimatedPricePerPersonUSD": 1.25
+          }
+        ],
+        "starters": [
+          {
+            "itemName": "Dhokla",
+            "category": "starters",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Steamed gram flour cakes. Instant mix can be imported. Light and auspicious start.",
+            "estimatedPricePerPersonUSD": 1.75
+          },
+          {
+            "itemName": "Paneer Tikka (Traditional)",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "welcome-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Classic preparation with no fusion twist for the ceremony meal.",
+            "estimatedPricePerPersonUSD": 3.50
+          }
+        ],
+        "chaatAndStreetFood": [],
+        "lightSnacks": [],
+        "mains": [
+          {
+            "itemName": "Shahi Paneer",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Royal paneer in rich cashew-cream sauce. The word 'shahi' means royal — fitting for the wedding day.",
+            "estimatedPricePerPersonUSD": 4.50
+          },
+          {
+            "itemName": "Dum Aloo Kashmiri",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Kashmiri",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Baby potatoes in rich yogurt and fennel gravy. Mild and aromatic. Traditional wedding dish.",
+            "estimatedPricePerPersonUSD": 3.25
+          },
+          {
+            "itemName": "Gujarati Undhiyu",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Gujarati",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Mixed vegetable dish with fenugreek dumplings. Some vegetables (valor, surti papdi) may be hard to source. Substitute with local equivalents.",
+            "estimatedPricePerPersonUSD": 3.50
+          },
+          {
+            "itemName": "Kadi Pakora",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Gujarati / Rajasthani",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Yogurt-based curry with gram flour fritters. Traditional wedding staple. Gram flour locally available.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "dals": [
+          {
+            "itemName": "Panchratni Dal",
+            "category": "dals",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Rajasthani",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Five-lentil dal. Lentils must be imported — urad, moong, chana, masoor, toor. Traditional and auspicious.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Dal Makhani",
+            "category": "dals",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Rich, creamy black lentil dal. Must be slow-cooked overnight for best results.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "paneerDishes": [
+          {
+            "itemName": "Paneer Pasanda",
+            "category": "paneerDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Stuffed paneer slices in rich gravy. Premium dish for the wedding day. Cashew paste and cream base.",
+            "estimatedPricePerPersonUSD": 4.75
+          }
+        ],
+        "vegetableDishes": [
+          {
+            "itemName": "Mix Veg (Seasonal)",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Mixed seasonal vegetables in light gravy. Jain version without onion, garlic, root vegetables like potato.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Bharwan Bhindi (Stuffed Okra)",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Okra stuffed with spices and dry mango powder. Okra available in Mexico. Jain-friendly without onion/garlic.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "rice": [
+          {
+            "itemName": "Jeera Rice",
+            "category": "rice",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Simple cumin-tempered basmati rice. Basmati imported.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Sweet Saffron Rice (Meethe Chawal / Zarda)",
+            "category": "rice",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mughlai / Punjabi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Sweet rice with saffron, nuts, and raisins. Traditional auspicious wedding dish. Saffron imported.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "breads": [
+          {
+            "itemName": "Puri (Deep Fried)",
+            "category": "breads",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Traditional puffed bread. Served with chole/halwa as part of the traditional wedding meal. Wheat flour available.",
+            "estimatedPricePerPersonUSD": 0.75
+          },
+          {
+            "itemName": "Missi Roti",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Rajasthani",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "low",
+            "easyToSourceInMexico": true,
+            "notes": "Gram flour and wheat flatbread with spices. Nutritious and flavorful traditional bread.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Butter Naan",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Standard across all main meals.",
+            "estimatedPricePerPersonUSD": 1.00
+          }
+        ],
+        "accompaniments": [
+          {
+            "itemName": "Boondi Raita",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Boondi (tiny gram flour drops) must be imported. Yogurt local.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Mixed Pickle",
+            "category": "accompaniments",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Import branded Indian pickle — Mother's or Priya. Jain versions without garlic.",
+            "estimatedPricePerPersonUSD": 0.50
+          }
+        ],
+        "desserts": [
+          {
+            "itemName": "Kheer (Rice Pudding)",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Rice pudding with cardamom, saffron, and nuts. Traditional auspicious dessert. Milk and rice available locally.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Moong Dal Halwa",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Rajasthani",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Rich dessert made from moong dal, ghee, and sugar. Dal must be imported. Very labor-intensive. Premium traditional sweet.",
+            "estimatedPricePerPersonUSD": 3.00
+          },
+          {
+            "itemName": "Gulab Jamun",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Mandatory at an Indian wedding. Khoya imported or made from scratch.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Sooji Halwa",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Semolina halwa — traditionally served with puri and chole at wedding lunches. Quick to prepare. Auspicious.",
+            "estimatedPricePerPersonUSD": 1.50
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Chaas / Buttermilk",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati / Rajasthani",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Spiced buttermilk to aid digestion after a heavy thali meal.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Nimbu Pani",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-lunch", "haldi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Fresh lemonade with roasted cumin and black salt. Mexican limes excellent.",
+            "estimatedPricePerPersonUSD": 0.75
+          }
+        ],
+        "liveStations": []
+      }
+    },
+    {
+      "id": "wedding-ceremony-dinner",
+      "eventType": "Wedding Ceremony Dinner",
+      "eventStyle": "Grand, multi-course, traditional feast",
+      "recommendedServiceStyle": "elaborate buffet with live counters and sit-down elements",
+      "mealIntensity": "full (grand)",
+      "idealCuisineApproach": "Traditional Indian wedding feast — the most elaborate meal of the celebration",
+      "notes": "The grandest meal. This is where you go all out. Maximum variety, premium ingredients, multiple live stations. Both the ceremony lunch and dinner should feel complete, but dinner is more elaborate and festive.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Thandai (Chilled)",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Rajasthani",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "mehndi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Traditional celebratory drink. Thandai masala imported. Served chilled with almond garnish.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Kesar Badam Doodh (Saffron Almond Milk)",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Warm saffron-almond milk. Saffron and almond powder imported. Royal and auspicious drink for the wedding night.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "starters": [
+          {
+            "itemName": "Mushroom Galouti Kebab",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Lucknowi / Awadhi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Melt-in-mouth mushroom kebabs inspired by the famous Lucknowi galouti. Premium starter for premium event.",
+            "estimatedPricePerPersonUSD": 3.75
+          },
+          {
+            "itemName": "Paneer Malai Tikka",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Cream-marinated paneer. Milder and more elegant than regular tikka. Cashew and cream marinade.",
+            "estimatedPricePerPersonUSD": 4.00
+          },
+          {
+            "itemName": "Stuffed Tandoori Aloo",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Baby potatoes stuffed with spiced paneer, grilled in tandoor. Hearty and impressive.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "chaatAndStreetFood": [],
+        "lightSnacks": [],
+        "mains": [
+          {
+            "itemName": "Paneer Lababdar",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Rich tomato-cream paneer curry with a touch of fenugreek. Premium restaurant-style preparation.",
+            "estimatedPricePerPersonUSD": 4.50
+          },
+          {
+            "itemName": "Navratan Korma",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Nine-jewel mixed vegetable korma in creamy cashew-almond sauce. Grand wedding classic with fruits and nuts.",
+            "estimatedPricePerPersonUSD": 4.25
+          },
+          {
+            "itemName": "Stuffed Capsicum in Makhani Gravy",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Bell peppers stuffed with paneer-cashew filling in buttery tomato gravy. Impressive presentation.",
+            "estimatedPricePerPersonUSD": 4.00
+          },
+          {
+            "itemName": "Matar Paneer",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "wedding-ceremony-lunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Classic peas and paneer curry. Green peas available frozen. Comfort food that everyone enjoys.",
+            "estimatedPricePerPersonUSD": 3.50
+          }
+        ],
+        "dals": [
+          {
+            "itemName": "Dal Makhani",
+            "category": "dals",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "The signature dal for any Indian wedding dinner. 24-hour slow cooked for best results.",
+            "estimatedPricePerPersonUSD": 2.75
+          },
+          {
+            "itemName": "Moong Dal Chilka",
+            "category": "dals",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Split green moong dal — lighter option alongside dal makhani. Moong dal imported. Jain-friendly.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "paneerDishes": [
+          {
+            "itemName": "Paneer Khurchan",
+            "category": "paneerDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Paneer cooked on a tawa with bell peppers and tomatoes. Semi-dry preparation.",
+            "estimatedPricePerPersonUSD": 4.00
+          }
+        ],
+        "vegetableDishes": [
+          {
+            "itemName": "Methi Matar Malai",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Fenugreek leaves with peas in cream. Fenugreek (methi) may need importing as fresh leaves are rare in Mexico. Can use dried (kasuri methi).",
+            "estimatedPricePerPersonUSD": 3.25
+          },
+          {
+            "itemName": "Dum Aloo",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Kashmiri",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "wedding-ceremony-lunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Baby potatoes in rich yogurt-based gravy. Slow-cooked (dum method) for deep flavor.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "rice": [
+          {
+            "itemName": "Hyderabadi Vegetable Biryani",
+            "category": "rice",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Hyderabadi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "The crown jewel of rice dishes. Layered, dum-cooked. Basmati and saffron imported. Must be served with raita and mirchi ka salan.",
+            "estimatedPricePerPersonUSD": 4.50
+          },
+          {
+            "itemName": "Jeera Rice",
+            "category": "rice",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Plain cumin rice as accompaniment to curries. Essential alongside biryani.",
+            "estimatedPricePerPersonUSD": 1.50
+          }
+        ],
+        "breads": [
+          {
+            "itemName": "Butter Naan",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Standard. From live tandoor.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Stuffed Kulcha (Paneer / Aloo)",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Stuffed with spiced paneer or potato. Premium bread option for the grand dinner.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Roomali Roti",
+            "category": "breads",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Thin handkerchief bread tossed dramatically. Requires skilled chef. Great live element.",
+            "estimatedPricePerPersonUSD": 1.25
+          }
+        ],
+        "accompaniments": [
+          {
+            "itemName": "Mirchi Ka Salan (Hyderabadi)",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Hyderabadi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Peanut-sesame based chili curry. Essential accompaniment with biryani. Mexican chiles work as substitute.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Raita (Boondi)",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Boondi imported. Essential with biryani.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Green Chutney",
+            "category": "accompaniments",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Fresh mint and coriander. Standard accompaniment.",
+            "estimatedPricePerPersonUSD": 0.50
+          }
+        ],
+        "desserts": [
+          {
+            "itemName": "Rasmalai",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Bengali",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Premium dessert. Fresh chenna dumplings in flavored milk. Can be made with local milk.",
+            "estimatedPricePerPersonUSD": 3.00
+          },
+          {
+            "itemName": "Gulab Jamun",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Non-negotiable at an Indian wedding dinner. Served warm in sugar syrup.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Rasgulla",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Bengali / Odia",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Spongy chenna balls in sugar syrup. Made fresh from local milk. Lighter alternative to gulab jamun.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Jalebi",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "mehndi"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Served warm and crispy from the live station. Traditional wedding essential.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Gajar Ka Halwa",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Warm carrot halwa served with a dollop of cream. Winter wedding favorite.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Masala Chai",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Post-dinner chai service. Essential.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Kahwa (Kashmiri Green Tea)",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Kashmiri",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["wedding-ceremony-dinner"],
+            "popularityLevel": "low",
+            "easyToSourceInMexico": false,
+            "notes": "Saffron and almond green tea. Kahwa spice mix imported. Premium after-dinner option. Digestive.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "liveStations": [
+          {
+            "itemName": "Tandoor Counter (Full Service)",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Full tandoor service — naan, kulcha, paneer tikka, tandoori veg platter. The visual and aromatic centerpiece of the dinner.",
+            "estimatedPricePerPersonUSD": 7.00
+          },
+          {
+            "itemName": "Paan Station (Full Service)",
+            "category": "liveStations",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Traditional",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Complete paan service with meetha paan, chocolate paan, fire paan. All betel leaf ingredients imported. Paanwala needed.",
+            "estimatedPricePerPersonUSD": 4.00
+          },
+          {
+            "itemName": "Kulfi / Ice Cream Station",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["wedding-ceremony-dinner", "sangeet", "reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Assorted kulfi sticks and scoops. Flavors: malai, pista, mango, rose, kesar. Prepared in advance.",
+            "estimatedPricePerPersonUSD": 3.50
+          }
+        ]
+      }
+    },
+    {
+      "id": "reception",
+      "eventType": "Reception",
+      "eventStyle": "Premium, elegant, sophisticated presentation",
+      "recommendedServiceStyle": "plated dinner with passed appetizers and dessert stations",
+      "mealIntensity": "full (premium)",
+      "idealCuisineApproach": "Best-of Indian cuisine presented with fine-dining elegance. Smaller portions, higher quality, beautiful plating.",
+      "notes": "The reception is about presentation and premium quality. Every dish should look elegant. This is often the event with non-Indian guests too, so include universally appealing items. Consider plated service for the main course.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Saffron-Cardamom Lemonade",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Premium",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Elegant welcome drink with saffron strands visible. Mexican limes, imported saffron. Served in champagne flutes.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Rose and Lychee Sharbat",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mughlai Premium",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Rose syrup imported. Canned lychee available. Delicate, sophisticated flavor pairing.",
+            "estimatedPricePerPersonUSD": 2.75
+          }
+        ],
+        "starters": [
+          {
+            "itemName": "Paneer Tikka Trio (Classic, Achari, Malai)",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian Premium",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Three variations of paneer tikka plated together elegantly. Showcases range of Indian flavors.",
+            "estimatedPricePerPersonUSD": 5.00
+          },
+          {
+            "itemName": "Mushroom Vol-au-Vent with Tikka Masala Filling",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-French Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "French pastry shells with Indian tikka masala mushroom filling. Elegant fusion for the reception. Puff pastry available locally.",
+            "estimatedPricePerPersonUSD": 4.00
+          },
+          {
+            "itemName": "Dahi Ke Kebab with Pomegranate",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Lucknowi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Melt-in-mouth curd kebabs garnished with pomegranate seeds. Elegant plating.",
+            "estimatedPricePerPersonUSD": 3.50
+          },
+          {
+            "itemName": "Tandoori Broccoli with Peanut Chutney",
+            "category": "starters",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Modern Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Modern Indian presentation. Broccoli available in Mexico. Appeals to health-conscious and international guests.",
+            "estimatedPricePerPersonUSD": 3.25
+          }
+        ],
+        "chaatAndStreetFood": [],
+        "lightSnacks": [],
+        "mains": [
+          {
+            "itemName": "Paneer Makhani (Premium Plated)",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian Premium",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Premium version of butter paneer — plated individually with cream drizzle and kasuri methi garnish. Fine dining presentation.",
+            "estimatedPricePerPersonUSD": 5.50
+          },
+          {
+            "itemName": "Navratan Korma",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mughlai",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["reception", "wedding-ceremony-dinner"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Nine-gem vegetable korma. Premium plating with gold leaf garnish for reception. Rich cashew-cream sauce.",
+            "estimatedPricePerPersonUSD": 5.00
+          },
+          {
+            "itemName": "Paneer Kali Mirch",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Black pepper paneer in cream sauce. Subtle and elegant flavor profile suitable for fine dining.",
+            "estimatedPricePerPersonUSD": 4.50
+          }
+        ],
+        "dals": [
+          {
+            "itemName": "Dal Makhani (Premium 48-Hour)",
+            "category": "dals",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi Premium",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "48-hour slow-cooked for ultimate creaminess. Premium version with extra butter and cream finish. Urad dal imported.",
+            "estimatedPricePerPersonUSD": 3.50
+          }
+        ],
+        "paneerDishes": [],
+        "vegetableDishes": [
+          {
+            "itemName": "Subz Miloni (Mixed Vegetable in Saffron Cream)",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Mughlai Premium",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Premium mixed vegetables in saffron-infused cream. Jain version without root vegetables and onion/garlic. Elegant presentation.",
+            "estimatedPricePerPersonUSD": 4.00
+          }
+        ],
+        "rice": [
+          {
+            "itemName": "Saffron Biryani (Layered, Premium)",
+            "category": "rice",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Lucknowi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Lucknowi-style biryani with generous saffron. Individual sealed pot (handi) service for premium presentation. Basmati and saffron imported.",
+            "estimatedPricePerPersonUSD": 5.50
+          }
+        ],
+        "breads": [
+          {
+            "itemName": "Assorted Bread Basket (Naan, Kulcha, Roti, Paratha)",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Elegant bread basket with variety. Served warm in cloth-lined baskets. Table service preferred over buffet.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "accompaniments": [
+          {
+            "itemName": "Pineapple Raita",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Fresh pineapple raita — unique and tropical. Mexican pineapples excellent. Elegant twist on traditional raita.",
+            "estimatedPricePerPersonUSD": 1.25
+          },
+          {
+            "itemName": "Cranberry and Walnut Chutney",
+            "category": "accompaniments",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Modern Indian Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Modern accompaniment — dried cranberries with walnuts and Indian spices. Appeals to international palate.",
+            "estimatedPricePerPersonUSD": 1.50
+          }
+        ],
+        "desserts": [
+          {
+            "itemName": "Rasmalai Tres Leches",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Mexican Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Signature fusion dessert — Mexican tres leches cake with rasmalai flavors (cardamom, saffron, pistachios). Show-stopping reception centerpiece.",
+            "estimatedPricePerPersonUSD": 4.00
+          },
+          {
+            "itemName": "Kesar Peda (Saffron Milk Fudge)",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Traditional Indian sweet — khoya-based with saffron. Khoya imported or made from scratch. Can be shaped into elegant forms.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Barfi Assortment (Kaju, Pista, Badam)",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Traditional",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Cashew, pistachio, and almond barfi. Nuts available but premium-priced. Can import from Indian sweet shops. Gift-worthy presentation.",
+            "estimatedPricePerPersonUSD": 3.50
+          },
+          {
+            "itemName": "Gulab Jamun Cheesecake",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indo-Western Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mini cheesecakes with gulab jamun pieces folded in. Cream cheese available in Mexico. Elegant individual portions.",
+            "estimatedPricePerPersonUSD": 4.50
+          },
+          {
+            "itemName": "Rabri with Seasonal Fruit",
+            "category": "desserts",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian Premium",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Thickened sweetened milk with fresh Mexican tropical fruits. Light and elegant dessert option.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Masala Chai",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Post-dinner chai. Served from samovar for visual appeal.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Espresso and Filter Coffee",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "International / South Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Dual coffee station — espresso for international guests, filter coffee for South Indian preference. Mexican coffee beans excellent.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "liveStations": [
+          {
+            "itemName": "Paan Station (Premium)",
+            "category": "liveStations",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Traditional",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Premium paan service with ice paan, chocolate paan, fire paan. Instagram-worthy presentation. All ingredients imported.",
+            "estimatedPricePerPersonUSD": 4.50
+          },
+          {
+            "itemName": "Dessert Bar (Indian Mithai Display)",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indian Traditional",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["reception"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Grand display of Indian sweets — barfi, peda, ladoo, soan papdi, kaju katli. Mix of imported and freshly made. Stunning visual centerpiece.",
+            "estimatedPricePerPersonUSD": 6.00
+          },
+          {
+            "itemName": "Ice Cream and Kulfi Cart",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["reception", "sangeet"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Vintage-style cart with kulfi and premium ice cream. Live serving with toppings bar. Great photo opportunity.",
+            "estimatedPricePerPersonUSD": 4.00
+          }
+        ]
+      }
+    },
+    {
+      "id": "farewell-brunch",
+      "eventType": "Farewell Brunch",
+      "eventStyle": "Relaxed, warm, comfort food",
+      "recommendedServiceStyle": "casual buffet with DIY stations",
+      "mealIntensity": "medium (brunch-style)",
+      "idealCuisineApproach": "Comfort food, Indian breakfast classics, and crossover brunch items. Nostalgic and filling before guests depart.",
+      "notes": "Last meal of the wedding weekend. Keep it warm and nostalgic. Indian breakfast comfort food mixed with brunch classics. Guests are tired from the celebrations — simple, filling food is key. Include takeaway options for guests traveling.",
+      "menuSections": {
+        "welcomeDrinks": [
+          {
+            "itemName": "Fresh Orange Juice",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "International",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Fresh-squeezed Mexican oranges. Simple and refreshing morning drink.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Masala Chai (Self-Service Samovar)",
+            "category": "welcomeDrinks",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Self-serve chai from large samovar. CTC tea imported. Comfort in a cup for the goodbye morning.",
+            "estimatedPricePerPersonUSD": 1.00
+          }
+        ],
+        "starters": [],
+        "chaatAndStreetFood": [
+          {
+            "itemName": "Chole Bhature",
+            "category": "chaatAndStreetFood",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi / Delhi Street Food",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Classic North Indian breakfast — spiced chickpeas with deep-fried bread. Hearty and satisfying.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "lightSnacks": [
+          {
+            "itemName": "Aloo Paratha with Butter and Yogurt",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "The ultimate Indian comfort breakfast. Potato-stuffed flatbread with white butter and fresh yogurt. All ingredients available.",
+            "estimatedPricePerPersonUSD": 2.50
+          },
+          {
+            "itemName": "Poha (Flattened Rice with Peanuts)",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Maharashtrian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Light flattened rice dish. Poha flakes imported. Nostalgic comfort food.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Upma with Coconut Chutney",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Semolina porridge with mustard seeds and curry leaves. Light South Indian breakfast option.",
+            "estimatedPricePerPersonUSD": 1.75
+          },
+          {
+            "itemName": "Bread Pakora",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Bread slices dipped in spiced gram flour batter and fried. Rainy-day comfort food. Quick to prepare.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Misal Pav",
+            "category": "lightSnacks",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Maharashtrian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Spicy sprouted moth bean curry with bread rolls. Farsan (crunchy toppings) imported. Bold flavors for brunch.",
+            "estimatedPricePerPersonUSD": 2.50
+          }
+        ],
+        "mains": [
+          {
+            "itemName": "Pav Bhaji",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Mumbai Street Food",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Buttery mixed vegetable mash with toasted bread rolls. Crowd-pleasing comfort food. All produce available locally.",
+            "estimatedPricePerPersonUSD": 3.00
+          },
+          {
+            "itemName": "Paneer Bhurji",
+            "category": "mains",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Scrambled paneer with onion, tomato, and spices. Indian equivalent of scrambled eggs. Brunch crossover item.",
+            "estimatedPricePerPersonUSD": 3.00
+          }
+        ],
+        "dals": [
+          {
+            "itemName": "Moong Dal Cheela (Savory Crepes)",
+            "category": "dals",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": false,
+            "notes": "Thin crepes made from moong dal batter. Moong dal imported. Jain-friendly with no onion/garlic. Healthy breakfast option.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "paneerDishes": [],
+        "vegetableDishes": [
+          {
+            "itemName": "Aloo Gobi (Home-Style)",
+            "category": "vegetableDishes",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Simple home-style potato and cauliflower. Nostalgia comfort food for the last meal together.",
+            "estimatedPricePerPersonUSD": 2.25
+          }
+        ],
+        "rice": [],
+        "breads": [
+          {
+            "itemName": "Paratha (Plain and Stuffed Assortment)",
+            "category": "breads",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Aloo, gobi, paneer paratha — served with butter, yogurt, and pickle. DIY paratha station is a highlight.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "accompaniments": [
+          {
+            "itemName": "Pickle, Yogurt, and Butter Trio",
+            "category": "accompaniments",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Essential paratha accompaniments. White butter, fresh yogurt, and imported pickle.",
+            "estimatedPricePerPersonUSD": 1.00
+          }
+        ],
+        "desserts": [
+          {
+            "itemName": "Suji Halwa",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Warm semolina halwa — traditional breakfast dessert. Quick to prepare. Served with puri. Jain-friendly.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Mango Shrikhand",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Gujarati",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Strained yogurt with mango puree. Mexican mangoes perfect. Served chilled as a brunch dessert.",
+            "estimatedPricePerPersonUSD": 2.00
+          },
+          {
+            "itemName": "Indian Mithai Box (Takeaway)",
+            "category": "desserts",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian Traditional",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Small boxes of assorted sweets (kaju katli, barfi, ladoo) for guests to take home. Import from Indian sweet shops. Beautiful packaging as wedding favor.",
+            "estimatedPricePerPersonUSD": 5.00
+          }
+        ],
+        "beverages": [
+          {
+            "itemName": "Masala Chai",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Unlimited chai service — the most important item at farewell brunch.",
+            "estimatedPricePerPersonUSD": 1.00
+          },
+          {
+            "itemName": "Filter Coffee",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "medium",
+            "easyToSourceInMexico": true,
+            "notes": "Strong South Indian filter coffee. Mexican coffee beans with chicory blend if possible.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Sweet Lassi",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "Punjabi",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Thick sweet yogurt drink. Cooling and satisfying. Local yogurt works well.",
+            "estimatedPricePerPersonUSD": 1.50
+          },
+          {
+            "itemName": "Fresh Fruit Juice Bar (Guava, Orange, Watermelon)",
+            "category": "beverages",
+            "vegNonVegJain": "jain",
+            "cuisineStyle": "International / Fusion",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Mexican tropical fruits freshly juiced. Multiple options. Brunch essential.",
+            "estimatedPricePerPersonUSD": 2.00
+          }
+        ],
+        "liveStations": [
+          {
+            "itemName": "Dosa Station (Morning Service)",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "South Indian",
+            "commonAcrossEvents": true,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": false,
+            "notes": "Morning dosa service — masala, plain, cheese, and rava varieties. Batter fermented overnight. With sambar and chutneys.",
+            "estimatedPricePerPersonUSD": 5.00
+          },
+          {
+            "itemName": "Paratha Station (Live)",
+            "category": "liveStations",
+            "vegNonVegJain": "veg",
+            "cuisineStyle": "North Indian",
+            "commonAcrossEvents": false,
+            "bestForEvents": ["farewell-brunch"],
+            "popularityLevel": "high",
+            "easyToSourceInMexico": true,
+            "notes": "Live paratha making — guests choose their stuffing (aloo, paneer, gobi, methi). Served hot from the tawa with butter.",
+            "estimatedPricePerPersonUSD": 4.50
+          }
+        ]
+      }
+    }
+  ],
+  "sourcingGuideForMexico": {
+    "easyToSourceLocally": [
+      "Paneer (can be made fresh from local milk)",
+      "All dairy — milk, cream, yogurt, butter, cheese",
+      "Fresh produce — tomatoes, onions, peppers, potatoes, cauliflower, spinach, eggplant, okra",
+      "Corn and corn tortillas",
+      "Wheat flour, all-purpose flour, semolina",
+      "Rice (local long-grain, not basmati)",
+      "Beans — kidney beans, chickpeas, black beans",
+      "Limes, lemons, and all citrus",
+      "Tropical fruits — mango (Ataulfo/Manila), papaya, guava, pineapple, watermelon",
+      "Coconut (fresh and dried)",
+      "Tamarind",
+      "Fresh herbs — cilantro, mint",
+      "Peanuts, almonds, walnuts",
+      "Sugar, jaggery (piloncillo is Mexican equivalent)",
+      "Coffee beans",
+      "Most cooking oils"
+    ],
+    "mustImportFromIndia": [
+      "Basmati rice (critical — local rice is not a substitute for biryani)",
+      "Urad dal, toor dal, moong dal, chana dal, masoor dal",
+      "CTC tea leaves for masala chai",
+      "Saffron strands",
+      "Khoya / Mawa (or plan to make from scratch — very time consuming)",
+      "Pani puri shells, papdi, sev, boondi, farsan",
+      "Poha (flattened rice)",
+      "Papad / Papadum",
+      "Rose syrup (Rooh Afza)",
+      "Thandai masala, chai masala, chaat masala, pav bhaji masala, chole masala",
+      "Betel leaves and paan ingredients (supari, gulkand, etc.)",
+      "Kasuri methi (dried fenugreek leaves)",
+      "Curry leaves (may grow locally in some regions)",
+      "Hing (asafoetida)",
+      "Jaggery (Indian variety — though Mexican piloncillo is a close substitute)",
+      "Kewra water",
+      "Specific Indian pickles (branded)",
+      "Khakhra, chakli, and other dry snacks",
+      "Instant mixes (dhokla, idli, dosa batter premix as backup)"
+    ],
+    "sourcingTips": [
+      "Contact Indian grocery importers in Mexico City, Cancun, or Guadalajara — small communities exist with import channels.",
+      "Plan imports 6-8 weeks in advance to account for customs and shipping delays.",
+      "Carry critical spice mixes in checked luggage as backup.",
+      "Mexican piloncillo is an excellent substitute for Indian jaggery.",
+      "Mexican tamarind paste works perfectly for chutneys and is often fresher than imported.",
+      "Fresh paneer is best made on-site from local whole milk — superior to imported frozen paneer.",
+      "Tandoor ovens may need to be shipped or custom-built locally — coordinate with local event equipment vendors.",
+      "Hire at least 2-3 Indian chefs to travel with the catering team for authentic preparation.",
+      "Test all recipes with local ingredient substitutes at least 2 months before the event."
+    ]
+  },
+  "jainMenuNotes": {
+    "description": "Jain dietary guidelines for catering planning. Important for a significant portion of Indian wedding guests.",
+    "restrictions": [
+      "No onion or garlic in any preparation",
+      "No root vegetables (potatoes, carrots, beets, radishes, turnips, sweet potatoes)",
+      "No mushrooms (grows underground / in dark)",
+      "No eggplant (contains many seeds)",
+      "Strict Jain: no fermented foods, no honey",
+      "Food must be prepared fresh — not reheated from previous day"
+    ],
+    "safeIngredients": [
+      "All above-ground vegetables — cabbage, cauliflower, bell peppers, beans, peas, corn, tomatoes",
+      "All lentils and legumes (when sprouted, some Jains avoid)",
+      "All dairy products",
+      "All grains — rice, wheat, millet",
+      "All fruits",
+      "All nuts and seeds",
+      "Sugar, salt, most spices (except those derived from roots — adjust accordingly)"
+    ],
+    "cateringRecommendation": "Prepare a separate Jain kitchen line with clearly labeled utensils. At minimum, offer 4-5 Jain main course options per event. Mark all buffet items clearly with Jain/non-Jain labels."
+  }
+}

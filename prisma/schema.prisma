@@ -551,6 +551,24 @@ model RitualTemplate {
   religiousNotes         String?
   plannerNotes           String?
   restrictions           String?
+
+  // Enhanced fields from research data
+  alternateNames         String[]
+  eventPhase             String?     // pre-wedding, wedding-day, post-wedding
+  mandatoryOrOptional    String?     // mandatory, optional
+  familyOnlyOrGuest      String?     // family-only, guest-facing
+  culturalMeaning        String?
+  typicalTimeOfDay       String?
+  typicalLocationType    String?
+  recommendedDressCode   String?
+  commonMusicLevel       String?     // minimal, moderate, high
+  foodImportance         String?     // none, light refreshments, moderate, full service
+  decorImportance        String?     // minimal, moderate, high
+  essentialVendors       String[]
+  suggestedVendors       String[]
+  optionalVendors        String[]
+  checklistData          Json?       // stores the detailed checklist sections
+
   isActive               Boolean     @default(true)
   createdAt              DateTime    @default(now())
   updatedAt              DateTime    @updatedAt
@@ -1015,6 +1033,23 @@ model MasterTemplate {
   isActive     Boolean     @default(true)
   createdAt    DateTime    @default(now())
   updatedAt    DateTime    @updatedAt
+}
+
+model MenuTemplate {
+  id                      String   @id @default(cuid())
+  eventType               String   // Welcome Dinner, Mehndi, Haldi, etc.
+  eventStyle              String?
+  recommendedServiceStyle String?
+  mealIntensity           String?  // light, moderate, full
+  idealCuisineApproach    String?
+  notes                   String?
+  menuSections            Json     // the full menu sections data
+  standardPackage         Json?    // standard recommended menu
+  premiumPackage          Json?    // premium recommended menu
+  lightPackage            Json?    // light function menu
+  isActive                Boolean  @default(true)
+  createdAt               DateTime @default(now())
+  updatedAt               DateTime @updatedAt
 }
 
 // ──────────────────────────────────────────────
