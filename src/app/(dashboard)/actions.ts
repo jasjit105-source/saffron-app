@@ -150,6 +150,45 @@ export async function getRitualTemplates() {
   }
 }
 
+export async function getRitualStats() {
+  try {
+    const rituals = await db.ritualTemplate.findMany({
+      where: { isActive: true },
+      select: { religionType: true, eventPhase: true },
+    });
+    return {
+      total: rituals.length,
+      sikh: rituals.filter((r) => r.religionType === "SIKH").length,
+      hindu: rituals.filter((r) => r.religionType === "HINDU").length,
+      jain: rituals.filter((r) => r.religionType === "CUSTOM").length,
+      preWedding: rituals.filter((r) => r.eventPhase === "pre-wedding").length,
+      weddingDay: rituals.filter((r) => r.eventPhase === "wedding-day").length,
+      postWedding: rituals.filter((r) => r.eventPhase === "post-wedding").length,
+    };
+  } catch (error) {
+    console.error("getRitualStats error:", error);
+    return { total: 0, sikh: 0, hindu: 0, jain: 0, preWedding: 0, weddingDay: 0, postWedding: 0 };
+  }
+}
+
+export async function getMenuStats() {
+  try {
+    const templates = await db.menuTemplate.findMany({
+      where: { isActive: true },
+      select: { menuSections: true },
+    });
+    const totalItems = templates.reduce((sum, t) => {
+      const sections = t.menuSections as Record<string, any[]> | null;
+      if (!sections || typeof sections !== "object") return sum;
+      return sum + Object.values(sections).reduce((s, arr) => s + (Array.isArray(arr) ? arr.length : 0), 0);
+    }, 0);
+    return { templateCount: templates.length, totalItems };
+  } catch (error) {
+    console.error("getMenuStats error:", error);
+    return { templateCount: 0, totalItems: 0 };
+  }
+}
+
 export async function getMarketplaceStats() {
   try {
     const [totalMarketplaceVendors, topPicks, cities, topVendorsByCity] =

@@ -21,6 +21,8 @@ import {
   ShoppingBag,
   Crown,
   MapPin,
+  Globe2,
+  ChefHat,
 } from "lucide-react";
 import { formatCurrency, formatDate } from "@/lib/utils";
 import {
@@ -46,6 +48,21 @@ interface MarketplaceStats {
   }>;
 }
 
+interface RitualStats {
+  total: number;
+  sikh: number;
+  hindu: number;
+  jain: number;
+  preWedding: number;
+  weddingDay: number;
+  postWedding: number;
+}
+
+interface MenuStats {
+  templateCount: number;
+  totalItems: number;
+}
+
 interface DashboardClientProps {
   stats: {
     activeWeddings: number;
@@ -62,6 +79,8 @@ interface DashboardClientProps {
   urgentTasks: any[];
   userName: string;
   marketplaceStats?: MarketplaceStats;
+  ritualStats?: RitualStats;
+  menuStats?: MenuStats;
 }
 
 export function DashboardClient({
@@ -71,6 +90,8 @@ export function DashboardClient({
   urgentTasks,
   userName,
   marketplaceStats,
+  ritualStats,
+  menuStats,
 }: DashboardClientProps) {
   const today = new Date().toLocaleDateString("en-IN", {
     weekday: "long",
@@ -277,6 +298,108 @@ export function DashboardClient({
         </div>
       </CardSection>
 
+      {/* Ritual Intelligence + Menu & Catering */}
+      {(ritualStats?.total || menuStats?.templateCount) ? (
+        <div className="grid lg:grid-cols-3 gap-5">
+          {/* Ritual Intelligence */}
+          {ritualStats && ritualStats.total > 0 && (
+            <CardSection
+              title="Ritual Intelligence"
+              subtitle={`${ritualStats.total} rituals`}
+              className="lg:col-span-2"
+              action={
+                <Link
+                  href="/rituals"
+                  className="text-[11px] text-amber-600 font-semibold hover:underline"
+                >
+                  Explore all
+                </Link>
+              }
+            >
+              <div className="p-4 space-y-2">
+                <div className="grid grid-cols-3 gap-3 mb-3">
+                  {[
+                    { label: "Sikh", count: ritualStats.sikh, color: "bg-amber-500", href: "/rituals?religion=sikh" },
+                    { label: "Hindu", count: ritualStats.hindu, color: "bg-orange-500", href: "/rituals?religion=hindu" },
+                    { label: "Jain", count: ritualStats.jain, color: "bg-emerald-500", href: "/rituals?religion=jain" },
+                  ].map((item) => (
+                    <Link
+                      key={item.label}
+                      href={item.href}
+                      className="flex items-center gap-2.5 p-2.5 rounded-xl hover:bg-gray-50 transition"
+                    >
+                      <span className={`w-2.5 h-2.5 rounded-full ${item.color}`} />
+                      <div>
+                        <div className="text-xs font-bold text-gray-700">{item.label}</div>
+                        <div className="text-[10px] text-gray-400">{item.count} rituals</div>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+                <div className="border-t border-gray-50 pt-2 grid grid-cols-3 gap-3">
+                  {[
+                    { label: "Pre-Wedding", count: ritualStats.preWedding, href: "/rituals?phase=pre-wedding" },
+                    { label: "Wedding Day", count: ritualStats.weddingDay, href: "/rituals?phase=wedding-day" },
+                    { label: "Post-Wedding", count: ritualStats.postWedding, href: "/rituals?phase=post-wedding" },
+                  ].map((item) => (
+                    <Link
+                      key={item.label}
+                      href={item.href}
+                      className="text-center p-2 rounded-lg hover:bg-gray-50 transition"
+                    >
+                      <div className="text-sm font-bold text-gray-700">{item.count}</div>
+                      <div className="text-[10px] text-gray-400">{item.label}</div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </CardSection>
+          )}
+
+          {/* Menu & Catering */}
+          {menuStats && menuStats.templateCount > 0 && (
+            <CardSection
+              title="Menu & Catering"
+              action={
+                <Link
+                  href="/catering"
+                  className="text-[11px] text-amber-600 font-semibold hover:underline"
+                >
+                  Browse menus
+                </Link>
+              }
+            >
+              <div className="p-4 space-y-4">
+                <div className="flex items-center gap-3 p-3 rounded-xl bg-amber-50/50">
+                  <div className="w-10 h-10 rounded-lg bg-amber-100 flex items-center justify-center">
+                    <ChefHat size={18} className="text-amber-600" />
+                  </div>
+                  <div>
+                    <div className="text-lg font-bold text-gray-800">{menuStats.templateCount}</div>
+                    <div className="text-[10px] text-gray-400">Event menus</div>
+                  </div>
+                </div>
+                <div className="flex items-center gap-3 p-3 rounded-xl bg-gray-50">
+                  <div className="w-10 h-10 rounded-lg bg-gray-100 flex items-center justify-center">
+                    <UtensilsCrossed size={18} className="text-gray-500" />
+                  </div>
+                  <div>
+                    <div className="text-lg font-bold text-gray-800">{menuStats.totalItems}</div>
+                    <div className="text-[10px] text-gray-400">Menu items</div>
+                  </div>
+                </div>
+                <Link
+                  href="/catering"
+                  className="flex items-center gap-1.5 text-xs font-semibold text-amber-600 hover:text-amber-700 transition pt-1"
+                >
+                  Browse menus <ArrowRight size={12} />
+                </Link>
+              </div>
+            </CardSection>
+          )}
+        </div>
+      ) : null}
+
       {/* Marketplace Vendors */}
       {marketplaceStats && marketplaceStats.totalMarketplaceVendors > 0 && (
         <div className="grid lg:grid-cols-3 gap-5">
@@ -372,6 +495,8 @@ export function DashboardClient({
             { label: "Assign Vendor", icon: Store, href: "/vendors" },
             { label: "Generate Quote", icon: IndianRupee, href: "/finance" },
             { label: "Add Task", icon: ListTodo, href: "/tasks" },
+            { label: "Rituals", icon: Globe2, href: "/rituals" },
+            { label: "Menus", icon: UtensilsCrossed, href: "/catering" },
             { label: "Marketplace", icon: ShoppingBag, href: "/marketplace" },
             { label: "Run Sheet", icon: Clock, href: "/timeline" },
           ].map((action) => {
